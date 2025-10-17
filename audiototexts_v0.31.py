@@ -148,8 +148,8 @@ class WhisperGUI:
             ("tiny - 最快速，準確度最低", "tiny"),
             ("base - 快速，準確度低", "base"),
             ("small - 較快，準確度中等", "small"),
-            ("medium - 平衡（推薦）", "medium"),
-            ("large - 最慢，準確度最高", "large")
+            ("medium - 平衡", "medium"),
+            ("large - 最慢，但準確度最高（推薦）", "large")
         ]
         
         for i, (text, value) in enumerate(models):
@@ -1079,4 +1079,5 @@ class WhisperGUI:
 if __name__ == "__main__":
     root = Tk()
     app = WhisperGUI(root)
+
     root.mainloop()
