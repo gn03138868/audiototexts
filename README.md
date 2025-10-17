@@ -1,5 +1,7 @@
 Audiototexts Tool
+
 Overview
+
 Audiototexts is a user-friendly graphical interface built with Python and Tkinter, designed to transcribe audio files efficiently using the Whisper model by OpenAI. It supports batch processing, automatic segmentation of large files, GPU acceleration, and advanced features like silence detection and repetition removal. The tool is tailored for users who need to convert audio files into text with minimal effort, offering a robust solution for both small and large-scale transcription tasks.
 
 Features
@@ -151,9 +153,11 @@ Memory Management: The tool includes memory cleanup to prevent crashes during ba
 License
 This project is licensed under the MIT License.
 
-音檔轉錄工具 (WhisperGUI)
+音檔轉文字小兔歐 (audiototexts)
+
 概述
-音檔轉錄工具 (WhisperGUI) 是一個基於 Python 和 Tkinter 開發的圖形化介面工具，旨在使用 OpenAI 的 Whisper 模型高效轉錄音檔。它支援批次處理、大型檔案自動切割、GPU 加速，以及靜音偵測和重複內容移除等進階功能。此工具專為需要將音檔轉為文字的用戶設計，提供簡單且強大的解決方案，適用於小型和大型轉錄任務。
+
+音檔轉文字小兔歐 (audiototexts) 是一個基於 Python 和 Tkinter 開發的圖形化介面工具，旨在使用 OpenAI 的 Whisper 模型高效轉錄音檔。它支援批次處理、大型檔案自動切割、GPU 加速，以及靜音偵測和重複內容移除等進階功能。此工具專為需要將音檔轉為文字的用戶設計，提供簡單且強大的解決方案，適用於小型和大型轉錄任務。
 
 功能
 
