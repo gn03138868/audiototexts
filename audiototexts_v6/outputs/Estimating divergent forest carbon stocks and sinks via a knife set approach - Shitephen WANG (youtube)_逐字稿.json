@@ -1,0 +1,3771 @@
+{
+ "info": {
+  "file": "C:\\Users\\gn031\\AppData\\Local\\Temp\\gradio\\67d849441cb35cd7ae908a0c6e87a3aeddaf67f9061f27abca878287e1229e2b\\Estimating divergent forest carbon stocks and sinks via a knife set approach - Shitephen WANG (youtube).mp3",
+  "name": "Estimating divergent forest carbon stocks and sinks via a knife set approach - Shitephen WANG (youtube).mp3",
+  "duration": 1640.80325,
+  "processed_from": 0.0,
+  "processed_dur": 1640.80325,
+  "speech": 1585.68,
+  "engine": "qwen3-asr-1.7b",
+  "engine_label": "Qwen3-ASR-1.7B（中文最準・含日英與方言・建議）",
+  "language_mode": "auto",
+  "chunks": 78,
+  "kept": 78,
+  "retried": 0,
+  "fixed": 0,
+  "dropped": 0,
+  "elapsed": 22.75833487510681,
+  "asr_time": 10.831739902496338,
+  "zh_script": "traditional_tw",
+  "version": "6.0"
+ },
+ "paragraphs": [
+  {
+   "start": 13.656,
+   "end": 89.856,
+   "text": "One, I'm Stephen, because each author of this study is responsible for the corresponding part. Not all authors understand each other's contents, so. We plan to hold an internal briefing on the study today. I would like to talk about the study, I almost redesigned and finished during the inner rebuttal period, and the topic is estimating divergent carbon stocks and sinks. I've said approach. Before start the presentation, I needed to make a confession. At that outset, here, a little over ten years ago, I did something that I regret, something that I'm not particularly proud of, but here I feel a kind of obliged to reveal. In the late 2010s, in the moment of young indiscretion. I went to a university. At that moment, I did not do very well in English exams, and was still like an idiot. I even thought ignorant that machine learning should be a cool science fiction technology, something that the.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 89.856,
+   "end": 159.496,
+   "text": "But today, against my better judgment, I want to try to dust off some of those machine learning skills. What's left of those machine learning skills? And I don't want to tell you complicated technical details. I want to make a case. I want to make a hard-headed. Evidence-based for rethinking how we conceptualize the knife-set approach and how we estimate carbon sinks and stocks. And here is my outline. I will review the proposed in introduction and describe the knife-set approach in materials and methods. And and then discuss about some new findings and compare our methods with IPCC's methods benchmark. And make a conclusion. Around two years ago, Kobayashi Sensei and I shared published research articles with each others, and then we found one paper mentioned that when the annual mean temperature was increased and the above ground biomass of most of bamboo.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 159.512,
+   "end": 216.32,
+   "text": "Was increased in Taiwan as well. However, it's totally different in Japan. He said. Hence, a question is formed: Is the phenomenon possibly like a carrying capacities index, such as forest above ground biomass? And we made an assumption as the figure, and there is a temperature period is suitable for moss bamboos growing, like this figure. Too hot or too cold will cause the above-ground biomass of the moss bamboo to decrease. And after that, we collect moss bamboo forest data from Japan and Taiwan. And the distribution of the biomass and the annual mean temperature shows like the figures. And we found that even though the assumption is partially correct, it may have some hidden variables. It seeks behind the phenomenal.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 216.32,
+   "end": 270.816,
+   "text": "Because we also found a lot of observation themes divergent, and if I added data from China and Korea, our assumption above is not easy to prove. So we stuck on the assumption here. On the other hand. The above assumption reminded me that Dr. Chen Chaihui and I was trying to use regression model to predict the mossel bamboo biomass and the carbon stocks about seven years ago. And this kind model has a good ability to evaluate the aboveground biomass, but very awful in belowground part. And we cannot solve the problem if the independent variables and the dependent variables divergent on the distribution at the moment. Perhaps it's necessary to find a method for belowground carbon sink and stocks.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 270.816,
+   "end": 331.904,
+   "text": "And we want to build a model which can be used to predict the dependent variables when the independent variables are divergent and and chaotic on the distribution in ecological systems. So. Previously, we was used my methods, which is a Gibbs sampling type Monte Carlo plus linear regression and random forest methods to impute the raw data set. Then, used the bidirectional stepwise regression methods to build a series of linear regression models and output the prediction. However, the method contained some part of produced data, which means if some factors are not so have a higher explanation power, it perhaps caused a overfitting in the output. And furthermore, after that, Richard and Simon.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 331.904,
+   "end": 397.76,
+   "text": "And I build a hybrid method which combined time series ARIMA and Gibbs sampling with random forests to estimate the stock price, and is hence workable for estimating divergent target variables in chaotic systems. That experience led me to consider how about to use the similar structure to estimate chaotic or divergent variables. Okay, so let's start today's internal briefing, and for the first part. What is necessary to investigate the biomass and the mega carbon storage models in bamboo forests? And I think because of land use changed, especially deforestation and agricultural activities increase, energy consumption and the burning fossil fuels, which comes from the below ground, the greenhouse gas emission have skyrocketed after the industrial revolution.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 397.76,
+   "end": 465.728,
+   "text": "And the greenhouse effect has intensified recently, and all above reasons are very likely causing global warming, which is also inducing extreme weather and the climate change, and the carbon stocks. In vegetation is an important role in carbon cycle, which affects carbon dioxide to meet in the air on Earth. And for combating the hard core problem, the United Nations Framework Convention on Climate Change is adopted on the ninth of May in nineteen ninety-two. And in the UNFCCC, a lot of. Countries will arrange some policymakers to attend their conference. Intergovernmental Panel on Climate Change will provide scientific reports and studies to the UNFCCC and help policymakers to assist climate policy. So, forest carbon sink and stocks are also important for policymakers to assist policies of mitigation.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 465.728,
+   "end": 523.304,
+   "text": "However, aometric model of carbon stock and sinks of below ground in bamboo forests looks always low accuracy. Why? Before answering, we need to talk about the spatial characteristics of bamboo. Here, we provide a case of Philostichus edulis, and bamboo forests are widely distributed in the world. For instance, you will find them in Asia, America, and Africa, but somehow. Two years ago, I saw some planted bamboos in France as well. Anyway, most of bamboo is a kind of temperate wood bamboo and widely distributed in Eastern Asia. And because of bamboo have no cambium, they will accumulate dry matters in the secondary wall year by year. And after finish their growth at the H one, they do not consumed.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 523.352,
+   "end": 583.424,
+   "text": "Quite a lot carbonhydrate animal, and due to mature bamboos do not consume too much carbonhydrate, carbonhydrate may transport to other bamboos or shot, and so far. Some study revealed that most of bamboos have a resin system and can transport carbonhydrate and nutrient to somewhere. This may be one of the main reason that below ground biomass ANPP and BNP P are divergent in bamboo forest. Okay, now we get back to the problem nowadays. Of the climate change, and even though carbon storage in vegetation is an important factor in carbon cycle, the method provided by IPCC's guideline is a little bit rough, especially on estimated bamboo carbon stocks and sequestration. So they just rely on one study from Africa, and it's.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 583.424,
+   "end": 645.776,
+   "text": "Parties of UNFCCC may use bodily forest data to calculate the carbon stock and the sinks. In bamboo forest, hence the purpose of this study is to investigate biomass, carbon storage, and nutrient contents in soil of most of bamboo forest, and to collect previous published journal articles data, and to design a method combined linear regression and random forest with skip sampling approach for estimating carbon stocks and sinks in forest, and our study said. Is in FFPRI Kansai Research Center in Japan, and the annual temperature is around the sixteen point four Celsius degree, and the annual mean precipitation is one thousand seven hundred and five millimeter per year, and the diapch is around the nine point seven centimeters, and the high is nearly fifteen meters. The cum density is.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 645.776,
+   "end": 707.408,
+   "text": "Around nine thousand per hectare. Furthermore, the total biomass is one hundred and eighty-six megagram per hectare. All of them are larger than the average size in China, Korea, and Taiwan. At the beginning of the series studies, we set study site at the sample plot in investigation biomass, especially in above ground biomass and below ground biomass, and then dried the samples and run elemental analyzer to know the carbon ratio in biomass to estimate the carbon stock and the sinks. After we obtain the data for carbon stock and the sequestration of most of bamboo forest in Japan and Taiwan, we also collect other reliable peer-reviewed articles on Google Scholar and read them carefully and record their details. And after we collected data, we start to wash and certificate data, and this step took.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 707.408,
+   "end": 783.056,
+   "text": "One of my summer vacations last year, I totally had this step very much, but it's quite important for the further analyzing. And after washing data. We got a raw dataset and started to use our software to check our relationship between the variables and build linear regression models for estimating regular target variables as output of the first layer. And following this, we estimate divergent variables via random forest with sampling assembled algorithms. And because it's like a random forest wandering in a highly dimension space, so we named it wandering through the random forest algorithm, and the random forest. It's a kind of a simple machine learning method, and because our data is tiny and have a lot of missing values, it has a good ability to remove the collinearity and prevent the result become overfitting. At the beginning, we wrote the draft. I used the term in simple hybrid approach, but.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 783.056,
+   "end": 856.36,
+   "text": "Kobashi sense and molecular sense don't think it is simple enough, so I use the concept that molecular sense provided in a seminar. And we emphasize that if independent variables and target variables have a good relationship with each other, then we use linear regression model as an output. And if the linear regression models can't estimate them, it will that wandering through the random forest to give an output. And if above methods still can't provide the values of estimation, it will use the climatological Tables to give an output. It can at least ensure that the accuracy of the output result is high. Also, the precision sometimes might be relevantly low. And now we talk about the detail of linear regression models. We operate Pearson correlations testing between all variables in raw dataset, and if p value is below zero point zero one between two variables, then make simple linear regression model. Then.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 856.44,
+   "end": 911.88,
+   "text": "After we explained the linear regression, the output will going into the second layer, and second layer the random forest and the gap sampling will treat them. and Let let me explain what is random forest. Random forest is an assemble method of many classification and the regression trees based on randomly bagging and form the new vectors randomly. And the raw data will be divided into train set at sixty three point two five percent and the test set at thirty six point seven five percent for out of bag test. And if the error rate over fifty percent, then the forest will not output values. And this method is brilliant to solve the collinearity. And I think you may have a question now: What is country?",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 912.088,
+   "end": 983.656,
+   "text": "Country is the abbreviation of the classification and regression tree models. If we want to make our tree models, we need to select the optimal segmentation variable J and the segmentation point S. And the formula seems like rather unfriendly. Then we describe that more below. I want to make a simple case. I assumed the data sheet like this. The simple data recorded three studies cited in Japan and two in Korea, two in Taiwan. If we choose say a country, there will be three different divided types. The types one is R one as in Korea and R two as in Japan and Taiwan. And the type two is R one as in Japan and R two as in Korea and in Taiwan. And the type three is R one as in Taiwan and R two. Us in Japan or in Korea, and if we use the mean annual temperature to choose the best divided type, then we get to.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 984.088,
+   "end": 1061.696,
+   "text": "Calculate each group's mean square errors and then find the minimized mean square errors combination. And the type one mean square error is fifty nine. And the same as above, the type two's mean square error will be ninety seven. And the type three's mean square error is around eighteen. So after that, we found the type three is the minimum MSE and it is the best divided structure. And repeat the procedure until all variables have been classified. And then we made the country models. And if we assemble replicated result together, it will called random forest. So following this, I would like to talk about what is Gibbs sampling. It is. The Markov chain Monte Carlo algorithms for obtain the sequence of observations which are approximately from a specified multivariate probability distribution when direct sampling is quite difficult, and I still do not know what that was. And I read a lot of papers and conclude that in a simple concept below.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1061.696,
+   "end": 1152.944,
+   "text": "So, if our estimating values are not the number can be observed, they are existing in possibility in the undimension obtained by independent variables, and if we observe a lot of times under the law of large number, we will get a highest possibility of expected value in the end, but. It will cost huge calculating resources. It may take a few years to get in the result. Hence, we use the Gibbs sampling and then do the iterations until the result coverage. We are low of large numbers, and I described it in a more intuitive way, and give sampling fixed variables x one zero, and operate the random forest model to predict the x one zero, and the missing value in the x one variables is predicted. As the V one and the X one zero become X one one, and then fix X two zero, and make another random forest model to predict the two zero, and the round once process from the X one to X n is an iteration. In this study, we did the ten to two hundred iterations. So combine the random forest and give simply. I subconclude the models.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1152.944,
+   "end": 1216.864,
+   "text": "Framework. After wash the raw data, we build a simple linear regression models for estimate target variables which have a high correlation to independent variables. Then use the Gibbs sampling of each variables and every independent variables take turns. As dependent variables for iteration, and each dependent variables will be imputed missing values by random forest model assembled. They choose the row and the column as the new small vectors. For country models temporarily, then after iteration of Gibbs sampling, every random forest model came out an subset, and then assembled those subset as output for the second layer in knife set approach, and to compare the simple algorithms with IPCC's tier one method using broadleaf forest parameters, five indices were considered.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1216.864,
+   "end": 1286.048,
+   "text": "They are mean absolute percentage error and root mean square error, and mean square error and mean error. Okay, now we start the so the discussion for carbon stock and sinks are usually estimated by regression models, and regression models work well for above ground carbon stocks and sinks. But are relevant the effect for below ground part, and this mainly because the relationship between the independent variables and independent variables are commonly chaotic or divergent and appear everywhere in nature ecosystems. There is. Large variability in belowground CCS estimated amount sites and high estimate uncertainties, which can be attributed to environmental and anthropogenic factors such as temperature, precipitation, soil chemical properties, and biotic communities.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1286.048,
+   "end": 1357.352,
+   "text": "Nutrient availabilities, management intensity, and ecosystem productivity—something like that. And bamboo forests are one of types of terrestrial ecosystem. In different climate classifications, will have totally different amount of the carbon stock and sinks because they have the resin system and can transport the carbon hydrate to other places and support the youngs of or new root development. So they have a more higher characteristic in their study site in their habit and above ground carbon have a significant correlation with basal area and is quite suit for constructing linear regression to estimate the above ground biomass, and Okuda, since in 2006 also made. This kind of linear model to estimate the muscle bamboos above ground biomass in Japan as well, and we also found the hydrotroughic respiration have a significant correlation with the NPP.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1357.656,
+   "end": 1428.968,
+   "text": "And a slight significant correlation with litterfall mass. Perhaps it means that if microbiome communities in soil decompose organic matter supply during litterfall increase, and then nutrient supply to. Most of bamboo, it will cause most of bamboo's NPP increase or total nutrient in soil drive the activity of microbiome to activate the N cycles, ammonifications and nitrifications, and cause the heterotrophic respiration has been driven as well. However, just only two peer-reviewed study recorded total. Nutrient in soil and heterotrophic respiration at the same study site in China, and the MPP just have a slight significant correlation with the total nutrient in soil, and the observations number is only three, two in this study and one in China. The relationship between the soil nutrient heterotrophic respiration MPP has potential.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1428.984,
+   "end": 1496.072,
+   "text": "For discovering the insight in the future, and below ground net primary production has a significant correlation with deep net production. Perhaps it implies that the more leaves form, the more root and the rhizome grows because most of bamboo's leaves produce sugars and supply for developing roots and the rhizome. The table revealed the performance of ninth set approach, and the approach is better than the IPCC's T1 methods using broadleaf forest parameters in all of the indices. And from the, sorry, so sorry, and. Because the IPCC set was above ground carbon, below ground carbon, and the total carbon stocks have a lower performance than the knife set approach, and in this kind of figure, the y-axis is the observations value.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1496.152,
+   "end": 1579.952,
+   "text": "And the x axis is the estimation value, and the MPP, B MPP, and the T MPP. Even though the result seems not so good for the life cycle approach proved, but is still better than the IPCC's type one methods. And I think perhaps we needed to collect more nutrient data from the other study sites. Because it's very lack of this kind data nowadays in the most of the forest in the world. And after we did the ten cross validations, we also operate the holdout data set to make the holdout testing, and the performance is very similar with the ten cross validation, which means there is no overfitting of the NAFSET approach and of the. Performance is better than the IPCC's tier one method. Okay, so. Through the collecting lots of bamboo data worldwide and the operating Pearson's correlations, we found the aboveground carbon stocks and the basal area have a high correlation to each other. And NPP and the leaf net production also have this kind of phenomenal. And the NPP and the heterotrophic respiration.",
+   "lang": "en",
+   "flags": []
+  },
+  {
+   "start": 1579.952,
+   "end": 1613.0,
+   "text": "Or total nutrient in soil have a correlation with each other as well in the philostachy edulis stands, and the performance of the said approach is better than borderly forest perimeters using the IPCC guideline for estimating carbon stocks and sinks in philostachy edulis stands, and we believe the KS approach. Also, can be applied in other forests if the dataset is reliable. Thanks for your attention.",
+   "lang": "en",
+   "flags": []
+  }
+ ],
+ "chunks": [
+  {
+   "i": 0,
+   "start": 13.656,
+   "end": 27.272,
+   "lang": "en",
+   "text": "One, I'm Stephen, because each author of this study is responsible for the corresponding part. Not all authors understand each other's contents, so.",
+   "raw": "One, I'm Stephen, because each author of this study is responsible for the corresponding part. Not all authors understand each other's contents, so.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 1,
+   "start": 27.352,
+   "end": 49.0,
+   "lang": "en",
+   "text": "We plan to hold an internal briefing on the study today. I would like to talk about the study, I almost redesigned and finished during the inner rebuttal period, and the topic is estimating divergent carbon stocks and sinks. I've said approach.",
+   "raw": "We plan to hold an internal briefing on the study today. I would like to talk about the study, I almost redesigned and finished during the inner rebuttal period, and the topic is estimating divergent carbon stocks and sinks. I've said approach.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 2,
+   "start": 49.016,
+   "end": 71.912,
+   "lang": "en",
+   "text": "Before start the presentation, I needed to make a confession. At that outset, here, a little over ten years ago, I did something that I regret, something that I'm not particularly proud of, but here I feel a kind of obliged to reveal. In the late 2010s, in the moment of young indiscretion.",
+   "raw": "Before start the presentation, I needed to make a confession. At that outset, here, a little over ten years ago, I did something that I regret, something that I'm not particularly proud of, but here I feel a kind of obliged to reveal. In the late 2010s, in the moment of young indiscretion.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 3,
+   "start": 72.088,
+   "end": 89.856,
+   "lang": "en",
+   "text": "I went to a university. At that moment, I did not do very well in English exams, and was still like an idiot. I even thought ignorant that machine learning should be a cool science fiction technology, something that the.",
+   "raw": "I went to a university. At that moment, I did not do very well in English exams, and was still like an idiot. I even thought ignorant that machine learning should be a cool science fiction technology, something that the.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 4,
+   "start": 89.856,
+   "end": 110.992,
+   "lang": "en",
+   "text": "But today, against my better judgment, I want to try to dust off some of those machine learning skills. What's left of those machine learning skills? And I don't want to tell you complicated technical details. I want to make a case. I want to make a hard-headed.",
+   "raw": "But today, against my better judgment, I want to try to dust off some of those machine learning skills. What's left of those machine learning skills? And I don't want to tell you complicated technical details. I want to make a case. I want to make a hard-headed.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 5,
+   "start": 110.992,
+   "end": 138.704,
+   "lang": "en",
+   "text": "Evidence-based for rethinking how we conceptualize the knife-set approach and how we estimate carbon sinks and stocks. And here is my outline. I will review the proposed in introduction and describe the knife-set approach in materials and methods. And and then discuss about some new findings and compare our methods with IPCC's methods benchmark.",
+   "raw": "Evidence-based for rethinking how we conceptualize the knife-set approach and how we estimate carbon sinks and stocks. And here is my outline. I will review the proposed in introduction and describe the knife-set approach in materials and methods. And and then discuss about some new findings and compare our methods with IPCC's methods benchmark.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 6,
+   "start": 138.704,
+   "end": 159.496,
+   "lang": "en",
+   "text": "And make a conclusion. Around two years ago, Kobayashi Sensei and I shared published research articles with each others, and then we found one paper mentioned that when the annual mean temperature was increased and the above ground biomass of most of bamboo.",
+   "raw": "And make a conclusion. Around two years ago, Kobayashi Sensei and I shared published research articles with each others, and then we found one paper mentioned that when the annual mean temperature was increased and the above ground biomass of most of bamboo.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 7,
+   "start": 159.512,
+   "end": 187.496,
+   "lang": "en",
+   "text": "Was increased in Taiwan as well. However, it's totally different in Japan. He said. Hence, a question is formed: Is the phenomenon possibly like a carrying capacities index, such as forest above ground biomass? And we made an assumption as the figure, and there is a temperature period is suitable for moss bamboos growing, like this figure.",
+   "raw": "Was increased in Taiwan as well. However, it's totally different in Japan. He said. Hence, a question is formed: Is the phenomenon possibly like a carrying capacities index, such as forest above ground biomass? And we made an assumption as the figure, and there is a temperature period is suitable for moss bamboos growing, like this figure.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 8,
+   "start": 187.608,
+   "end": 199.176,
+   "lang": "en",
+   "text": "Too hot or too cold will cause the above-ground biomass of the moss bamboo to decrease. And after that, we collect moss bamboo forest data from Japan and Taiwan.",
+   "raw": "Too hot or too cold will cause the above-ground biomass of the moss bamboo to decrease. And after that, we collect moss bamboo forest data from Japan and Taiwan.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 9,
+   "start": 199.192,
+   "end": 216.32,
+   "lang": "en",
+   "text": "And the distribution of the biomass and the annual mean temperature shows like the figures. And we found that even though the assumption is partially correct, it may have some hidden variables. It seeks behind the phenomenal.",
+   "raw": "And the distribution of the biomass and the annual mean temperature shows like the figures. And we found that even though the assumption is partially correct, it may have some hidden variables. It seeks behind the phenomenal.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 10,
+   "start": 216.32,
+   "end": 233.488,
+   "lang": "en",
+   "text": "Because we also found a lot of observation themes divergent, and if I added data from China and Korea, our assumption above is not easy to prove. So we stuck on the assumption here. On the other hand.",
+   "raw": "Because we also found a lot of observation themes divergent, and if I added data from China and Korea, our assumption above is not easy to prove. So we stuck on the assumption here. On the other hand.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 11,
+   "start": 233.488,
+   "end": 246.184,
+   "lang": "en",
+   "text": "The above assumption reminded me that Dr. Chen Chaihui and I was trying to use regression model to predict the mossel bamboo biomass and the carbon stocks about seven years ago.",
+   "raw": "The above assumption reminded me that Dr. Chen Chaihui and I was trying to use regression model to predict the mossel bamboo biomass and the carbon stocks about seven years ago.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 12,
+   "start": 246.296,
+   "end": 270.816,
+   "lang": "en",
+   "text": "And this kind model has a good ability to evaluate the aboveground biomass, but very awful in belowground part. And we cannot solve the problem if the independent variables and the dependent variables divergent on the distribution at the moment. Perhaps it's necessary to find a method for belowground carbon sink and stocks.",
+   "raw": "And this kind model has a good ability to evaluate the aboveground biomass, but very awful in belowground part. And we cannot solve the problem if the independent variables and the dependent variables divergent on the distribution at the moment. Perhaps it's necessary to find a method for belowground carbon sink and stocks.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 13,
+   "start": 270.816,
+   "end": 285.64,
+   "lang": "en",
+   "text": "And we want to build a model which can be used to predict the dependent variables when the independent variables are divergent and and chaotic on the distribution in ecological systems. So.",
+   "raw": "And we want to build a model which can be used to predict the dependent variables when the independent variables are divergent and and chaotic on the distribution in ecological systems. So.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 14,
+   "start": 286.008,
+   "end": 310.248,
+   "lang": "en",
+   "text": "Previously, we was used my methods, which is a Gibbs sampling type Monte Carlo plus linear regression and random forest methods to impute the raw data set. Then, used the bidirectional stepwise regression methods to build a series of linear regression models and output the prediction.",
+   "raw": "Previously, we was used my methods, which is a Gibbs sampling type Monte Carlo plus linear regression and random forest methods to impute the raw data set. Then, used the bidirectional stepwise regression methods to build a series of linear regression models and output the prediction.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 15,
+   "start": 310.264,
+   "end": 331.904,
+   "lang": "en",
+   "text": "However, the method contained some part of produced data, which means if some factors are not so have a higher explanation power, it perhaps caused a overfitting in the output. And furthermore, after that, Richard and Simon.",
+   "raw": "However, the method contained some part of produced data, which means if some factors are not so have a higher explanation power, it perhaps caused a overfitting in the output. And furthermore, after that, Richard and Simon.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 16,
+   "start": 331.904,
+   "end": 359.024,
+   "lang": "en",
+   "text": "And I build a hybrid method which combined time series ARIMA and Gibbs sampling with random forests to estimate the stock price, and is hence workable for estimating divergent target variables in chaotic systems. That experience led me to consider how about to use the similar structure to estimate chaotic or divergent variables.",
+   "raw": "And I build a hybrid method which combined time series ARIMA and Gibbs sampling with random forests to estimate the stock price, and is hence workable for estimating divergent target variables in chaotic systems. That experience led me to consider how about to use the similar structure to estimate chaotic or divergent variables.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 17,
+   "start": 359.024,
+   "end": 370.496,
+   "lang": "en",
+   "text": "Okay, so let's start today's internal briefing, and for the first part.",
+   "raw": "Okay, so let's start today's internal briefing, and for the first part.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 18,
+   "start": 370.496,
+   "end": 397.76,
+   "lang": "en",
+   "text": "What is necessary to investigate the biomass and the mega carbon storage models in bamboo forests? And I think because of land use changed, especially deforestation and agricultural activities increase, energy consumption and the burning fossil fuels, which comes from the below ground, the greenhouse gas emission have skyrocketed after the industrial revolution.",
+   "raw": "What is necessary to investigate the biomass and the mega carbon storage models in bamboo forests? And I think because of land use changed, especially deforestation and agricultural activities increase, energy consumption and the burning fossil fuels, which comes from the below ground, the greenhouse gas emission have skyrocketed after the industrial revolution.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 19,
+   "start": 397.76,
+   "end": 413.448,
+   "lang": "en",
+   "text": "And the greenhouse effect has intensified recently, and all above reasons are very likely causing global warming, which is also inducing extreme weather and the climate change, and the carbon stocks.",
+   "raw": "And the greenhouse effect has intensified recently, and all above reasons are very likely causing global warming, which is also inducing extreme weather and the climate change, and the carbon stocks.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 20,
+   "start": 413.528,
+   "end": 438.336,
+   "lang": "en",
+   "text": "In vegetation is an important role in carbon cycle, which affects carbon dioxide to meet in the air on Earth. And for combating the hard core problem, the United Nations Framework Convention on Climate Change is adopted on the ninth of May in nineteen ninety-two. And in the UNFCCC, a lot of.",
+   "raw": "In vegetation is an important role in carbon cycle, which affects carbon dioxide to meet in the air on Earth. And for combating the hard core problem, the United Nations Framework Convention on Climate Change is adopted on the ninth of May in nineteen ninety-two. And in the UNFCCC, a lot of.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 21,
+   "start": 438.336,
+   "end": 465.728,
+   "lang": "en",
+   "text": "Countries will arrange some policymakers to attend their conference. Intergovernmental Panel on Climate Change will provide scientific reports and studies to the UNFCCC and help policymakers to assist climate policy. So, forest carbon sink and stocks are also important for policymakers to assist policies of mitigation.",
+   "raw": "Countries will arrange some policymakers to attend their conference. Intergovernmental Panel on Climate Change will provide scientific reports and studies to the UNFCCC and help policymakers to assist climate policy. So, forest carbon sink and stocks are also important for policymakers to assist policies of mitigation.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 22,
+   "start": 465.728,
+   "end": 489.928,
+   "lang": "en",
+   "text": "However, aometric model of carbon stock and sinks of below ground in bamboo forests looks always low accuracy. Why? Before answering, we need to talk about the spatial characteristics of bamboo. Here, we provide a case of Philostichus edulis, and bamboo forests are widely distributed in the world.",
+   "raw": "However, aometric model of carbon stock and sinks of below ground in bamboo forests looks always low accuracy. Why? Before answering, we need to talk about the spatial characteristics of bamboo. Here, we provide a case of Philostichus edulis, and bamboo forests are widely distributed in the world.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 23,
+   "start": 489.976,
+   "end": 498.024,
+   "lang": "en",
+   "text": "For instance, you will find them in Asia, America, and Africa, but somehow.",
+   "raw": "For instance, you will find them in Asia, America, and Africa, but somehow.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 24,
+   "start": 498.04,
+   "end": 523.304,
+   "lang": "en",
+   "text": "Two years ago, I saw some planted bamboos in France as well. Anyway, most of bamboo is a kind of temperate wood bamboo and widely distributed in Eastern Asia. And because of bamboo have no cambium, they will accumulate dry matters in the secondary wall year by year. And after finish their growth at the H one, they do not consumed.",
+   "raw": "Two years ago, I saw some planted bamboos in France as well. Anyway, most of bamboo is a kind of temperate wood bamboo and widely distributed in Eastern Asia. And because of bamboo have no cambium, they will accumulate dry matters in the secondary wall year by year. And after finish their growth at the H one, they do not consumed.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 25,
+   "start": 523.352,
+   "end": 537.424,
+   "lang": "en",
+   "text": "Quite a lot carbonhydrate animal, and due to mature bamboos do not consume too much carbonhydrate, carbonhydrate may transport to other bamboos or shot, and so far.",
+   "raw": "Quite a lot carbonhydrate animal, and due to mature bamboos do not consume too much carbonhydrate, carbonhydrate may transport to other bamboos or shot, and so far.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 26,
+   "start": 537.424,
+   "end": 560.048,
+   "lang": "en",
+   "text": "Some study revealed that most of bamboos have a resin system and can transport carbonhydrate and nutrient to somewhere. This may be one of the main reason that below ground biomass ANPP and BNP P are divergent in bamboo forest. Okay, now we get back to the problem nowadays.",
+   "raw": "Some study revealed that most of bamboos have a resin system and can transport carbonhydrate and nutrient to somewhere. This may be one of the main reason that below ground biomass ANPP and BNP P are divergent in bamboo forest. Okay, now we get back to the problem nowadays.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 27,
+   "start": 560.048,
+   "end": 583.424,
+   "lang": "en",
+   "text": "Of the climate change, and even though carbon storage in vegetation is an important factor in carbon cycle, the method provided by IPCC's guideline is a little bit rough, especially on estimated bamboo carbon stocks and sequestration. So they just rely on one study from Africa, and it's.",
+   "raw": "Of the climate change, and even though carbon storage in vegetation is an important factor in carbon cycle, the method provided by IPCC's guideline is a little bit rough, especially on estimated bamboo carbon stocks and sequestration. So they just rely on one study from Africa, and it's.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 28,
+   "start": 583.424,
+   "end": 591.232,
+   "lang": "en",
+   "text": "Parties of UNFCCC may use bodily forest data to calculate the carbon stock and the sinks.",
+   "raw": "Parties of UNFCCC may use bodily forest data to calculate the carbon stock and the sinks.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 29,
+   "start": 591.232,
+   "end": 618.928,
+   "lang": "en",
+   "text": "In bamboo forest, hence the purpose of this study is to investigate biomass, carbon storage, and nutrient contents in soil of most of bamboo forest, and to collect previous published journal articles data, and to design a method combined linear regression and random forest with skip sampling approach for estimating carbon stocks and sinks in forest, and our study said.",
+   "raw": "In bamboo forest, hence the purpose of this study is to investigate biomass, carbon storage, and nutrient contents in soil of most of bamboo forest, and to collect previous published journal articles data, and to design a method combined linear regression and random forest with skip sampling approach for estimating carbon stocks and sinks in forest, and our study said.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 30,
+   "start": 618.928,
+   "end": 645.776,
+   "lang": "en",
+   "text": "Is in FFPRI Kansai Research Center in Japan, and the annual temperature is around the sixteen point four Celsius degree, and the annual mean precipitation is one thousand seven hundred and five millimeter per year, and the diapch is around the nine point seven centimeters, and the high is nearly fifteen meters. The cum density is.",
+   "raw": "Is in FFPRI Kansai Research Center in Japan, and the annual temperature is around the sixteen point four Celsius degree, and the annual mean precipitation is one thousand seven hundred and five millimeter per year, and the diapch is around the nine point seven centimeters, and the high is nearly fifteen meters. The cum density is.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 31,
+   "start": 645.776,
+   "end": 660.072,
+   "lang": "en",
+   "text": "Around nine thousand per hectare. Furthermore, the total biomass is one hundred and eighty-six megagram per hectare. All of them are larger than the average size in China, Korea, and Taiwan.",
+   "raw": "Around nine thousand per hectare. Furthermore, the total biomass is one hundred and eighty-six megagram per hectare. All of them are larger than the average size in China, Korea, and Taiwan.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 32,
+   "start": 660.312,
+   "end": 682.368,
+   "lang": "en",
+   "text": "At the beginning of the series studies, we set study site at the sample plot in investigation biomass, especially in above ground biomass and below ground biomass, and then dried the samples and run elemental analyzer to know the carbon ratio in biomass to estimate the carbon stock and the sinks.",
+   "raw": "At the beginning of the series studies, we set study site at the sample plot in investigation biomass, especially in above ground biomass and below ground biomass, and then dried the samples and run elemental analyzer to know the carbon ratio in biomass to estimate the carbon stock and the sinks.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 33,
+   "start": 682.368,
+   "end": 707.408,
+   "lang": "en",
+   "text": "After we obtain the data for carbon stock and the sequestration of most of bamboo forest in Japan and Taiwan, we also collect other reliable peer-reviewed articles on Google Scholar and read them carefully and record their details. And after we collected data, we start to wash and certificate data, and this step took.",
+   "raw": "After we obtain the data for carbon stock and the sequestration of most of bamboo forest in Japan and Taiwan, we also collect other reliable peer-reviewed articles on Google Scholar and read them carefully and record their details. And after we collected data, we start to wash and certificate data, and this step took.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 34,
+   "start": 707.408,
+   "end": 719.376,
+   "lang": "en",
+   "text": "One of my summer vacations last year, I totally had this step very much, but it's quite important for the further analyzing. And after washing data.",
+   "raw": "One of my summer vacations last year, I totally had this step very much, but it's quite important for the further analyzing. And after washing data.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 35,
+   "start": 719.376,
+   "end": 746.544,
+   "lang": "en",
+   "text": "We got a raw dataset and started to use our software to check our relationship between the variables and build linear regression models for estimating regular target variables as output of the first layer. And following this, we estimate divergent variables via random forest with sampling assembled algorithms.",
+   "raw": "We got a raw dataset and started to use our software to check our relationship between the variables and build linear regression models for estimating regular target variables as output of the first layer. And following this, we estimate divergent variables via random forest with sampling assembled algorithms.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 36,
+   "start": 746.544,
+   "end": 760.88,
+   "lang": "en",
+   "text": "And because it's like a random forest wandering in a highly dimension space, so we named it wandering through the random forest algorithm, and the random forest.",
+   "raw": "And because it's like a random forest wandering in a highly dimension space, so we named it wandering through the random forest algorithm, and the random forest.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 37,
+   "start": 760.88,
+   "end": 783.056,
+   "lang": "en",
+   "text": "It's a kind of a simple machine learning method, and because our data is tiny and have a lot of missing values, it has a good ability to remove the collinearity and prevent the result become overfitting. At the beginning, we wrote the draft. I used the term in simple hybrid approach, but.",
+   "raw": "It's a kind of a simple machine learning method, and because our data is tiny and have a lot of missing values, it has a good ability to remove the collinearity and prevent the result become overfitting. At the beginning, we wrote the draft. I used the term in simple hybrid approach, but.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 38,
+   "start": 783.056,
+   "end": 793.384,
+   "lang": "en",
+   "text": "Kobashi sense and molecular sense don't think it is simple enough, so I use the concept that molecular sense provided in a seminar.",
+   "raw": "Kobashi sense and molecular sense don't think it is simple enough, so I use the concept that molecular sense provided in a seminar.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 39,
+   "start": 793.56,
+   "end": 821.36,
+   "lang": "en",
+   "text": "And we emphasize that if independent variables and target variables have a good relationship with each other, then we use linear regression model as an output. And if the linear regression models can't estimate them, it will that wandering through the random forest to give an output. And if above methods still can't provide the values of estimation, it will use the climatological",
+   "raw": "And we emphasize that if independent variables and target variables have a good relationship with each other, then we use linear regression model as an output. And if the linear regression models can't estimate them, it will that wandering through the random forest to give an output. And if above methods still can't provide the values of estimation, it will use the climatological",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 40,
+   "start": 821.36,
+   "end": 833.832,
+   "lang": "en",
+   "text": "Tables to give an output. It can at least ensure that the accuracy of the output result is high. Also, the precision sometimes might be relevantly low.",
+   "raw": "Tables to give an output. It can at least ensure that the accuracy of the output result is high. Also, the precision sometimes might be relevantly low.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 41,
+   "start": 835.256,
+   "end": 856.36,
+   "lang": "en",
+   "text": "And now we talk about the detail of linear regression models. We operate Pearson correlations testing between all variables in raw dataset, and if p value is below zero point zero one between two variables, then make simple linear regression model. Then.",
+   "raw": "And now we talk about the detail of linear regression models. We operate Pearson correlations testing between all variables in raw dataset, and if p value is below zero point zero one between two variables, then make simple linear regression model. Then.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 42,
+   "start": 856.44,
+   "end": 883.464,
+   "lang": "en",
+   "text": "After we explained the linear regression, the output will going into the second layer, and second layer the random forest and the gap sampling will treat them. and Let let me explain what is random forest. Random forest is an assemble method of many classification and the regression trees based on randomly bagging and form the new vectors randomly.",
+   "raw": "After we explained the linear regression, the output will going into the second layer, and second layer the random forest and the gap sampling will treat them. and Let let me explain what is random forest. Random forest is an assemble method of many classification and the regression trees based on randomly bagging and form the new vectors randomly.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 43,
+   "start": 883.48,
+   "end": 898.08,
+   "lang": "en",
+   "text": "And the raw data will be divided into train set at sixty three point two five percent and the test set at thirty six point seven five percent for out of bag test.",
+   "raw": "And the raw data will be divided into train set at sixty three point two five percent and the test set at thirty six point seven five percent for out of bag test.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 44,
+   "start": 898.08,
+   "end": 911.88,
+   "lang": "en",
+   "text": "And if the error rate over fifty percent, then the forest will not output values. And this method is brilliant to solve the collinearity. And I think you may have a question now: What is country?",
+   "raw": "And if the error rate over fifty percent, then the forest will not output values. And this method is brilliant to solve the collinearity. And I think you may have a question now: What is country?",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 45,
+   "start": 912.088,
+   "end": 935.208,
+   "lang": "en",
+   "text": "Country is the abbreviation of the classification and regression tree models. If we want to make our tree models, we need to select the optimal segmentation variable J and the segmentation point S. And the formula seems like rather unfriendly. Then we describe that more below.",
+   "raw": "Country is the abbreviation of the classification and regression tree models. If we want to make our tree models, we need to select the optimal segmentation variable J and the segmentation point S. And the formula seems like rather unfriendly. Then we describe that more below.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 46,
+   "start": 935.416,
+   "end": 947.976,
+   "lang": "en",
+   "text": "I want to make a simple case. I assumed the data sheet like this. The simple data recorded three studies cited in Japan and two in Korea, two in Taiwan.",
+   "raw": "I want to make a simple case. I assumed the data sheet like this. The simple data recorded three studies cited in Japan and two in Korea, two in Taiwan.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 47,
+   "start": 948.024,
+   "end": 974.056,
+   "lang": "en",
+   "text": "If we choose say a country, there will be three different divided types. The types one is R one as in Korea and R two as in Japan and Taiwan. And the type two is R one as in Japan and R two as in Korea and in Taiwan. And the type three is R one as in Taiwan and R two.",
+   "raw": "If we choose say a country, there will be three different divided types. The types one is R one as in Korea and R two as in Japan and Taiwan. And the type two is R one as in Japan and R two as in Korea and in Taiwan. And the type three is R one as in Taiwan and R two.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 48,
+   "start": 974.296,
+   "end": 983.656,
+   "lang": "en",
+   "text": "Us in Japan or in Korea, and if we use the mean annual temperature to choose the best divided type, then we get to.",
+   "raw": "Us in Japan or in Korea, and if we use the mean annual temperature to choose the best divided type, then we get to.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 49,
+   "start": 984.088,
+   "end": 1006.184,
+   "lang": "en",
+   "text": "Calculate each group's mean square errors and then find the minimized mean square errors combination. And the type one mean square error is fifty nine. And the same as above, the type two's mean square error will be ninety seven. And the type three's mean square error is around eighteen.",
+   "raw": "Calculate each group's mean square errors and then find the minimized mean square errors combination. And the type one mean square error is fifty nine. And the same as above, the type two's mean square error will be ninety seven. And the type three's mean square error is around eighteen.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 50,
+   "start": 1006.392,
+   "end": 1034.192,
+   "lang": "en",
+   "text": "So after that, we found the type three is the minimum MSE and it is the best divided structure. And repeat the procedure until all variables have been classified. And then we made the country models. And if we assemble replicated result together, it will called random forest. So following this, I would like to talk about what is Gibbs sampling. It is.",
+   "raw": "So after that, we found the type three is the minimum MSE and it is the best divided structure. And repeat the procedure until all variables have been classified. And then we made the country models. And if we assemble replicated result together, it will called random forest. So following this, I would like to talk about what is Gibbs sampling. It is.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 51,
+   "start": 1034.192,
+   "end": 1061.696,
+   "lang": "en",
+   "text": "The Markov chain Monte Carlo algorithms for obtain the sequence of observations which are approximately from a specified multivariate probability distribution when direct sampling is quite difficult, and I still do not know what that was. And I read a lot of papers and conclude that in a simple concept below.",
+   "raw": "The Markov chain Monte Carlo algorithms for obtain the sequence of observations which are approximately from a specified multivariate probability distribution when direct sampling is quite difficult, and I still do not know what that was. And I read a lot of papers and conclude that in a simple concept below.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 52,
+   "start": 1061.696,
+   "end": 1087.976,
+   "lang": "en",
+   "text": "So, if our estimating values are not the number can be observed, they are existing in possibility in the undimension obtained by independent variables, and if we observe a lot of times under the law of large number, we will get a highest possibility of expected value in the end, but.",
+   "raw": "So, if our estimating values are not the number can be observed, they are existing in possibility in the undimension obtained by independent variables, and if we observe a lot of times under the law of large number, we will get a highest possibility of expected value in the end, but.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 53,
+   "start": 1088.12,
+   "end": 1103.432,
+   "lang": "en",
+   "text": "It will cost huge calculating resources. It may take a few years to get in the result. Hence, we use the Gibbs sampling and then do the iterations until the result coverage.",
+   "raw": "It will cost huge calculating resources. It may take a few years to get in the result. Hence, we use the Gibbs sampling and then do the iterations until the result coverage.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 54,
+   "start": 1103.576,
+   "end": 1125.184,
+   "lang": "en",
+   "text": "We are low of large numbers, and I described it in a more intuitive way, and give sampling fixed variables x one zero, and operate the random forest model to predict the x one zero, and the missing value in the x one variables is predicted.",
+   "raw": "We are low of large numbers, and I described it in a more intuitive way, and give sampling fixed variables x one zero, and operate the random forest model to predict the x one zero, and the missing value in the x one variables is predicted.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 55,
+   "start": 1125.184,
+   "end": 1152.944,
+   "lang": "en",
+   "text": "As the V one and the X one zero become X one one, and then fix X two zero, and make another random forest model to predict the two zero, and the round once process from the X one to X n is an iteration. In this study, we did the ten to two hundred iterations. So combine the random forest and give simply. I subconclude the models.",
+   "raw": "As the V one and the X one zero become X one one, and then fix X two zero, and make another random forest model to predict the two zero, and the round once process from the X one to X n is an iteration. In this study, we did the ten to two hundred iterations. So combine the random forest and give simply. I subconclude the models.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 56,
+   "start": 1152.944,
+   "end": 1172.776,
+   "lang": "en",
+   "text": "Framework. After wash the raw data, we build a simple linear regression models for estimate target variables which have a high correlation to independent variables. Then use the Gibbs sampling of each variables and every independent variables take turns.",
+   "raw": "Framework. After wash the raw data, we build a simple linear regression models for estimate target variables which have a high correlation to independent variables. Then use the Gibbs sampling of each variables and every independent variables take turns.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 57,
+   "start": 1172.824,
+   "end": 1189.296,
+   "lang": "en",
+   "text": "As dependent variables for iteration, and each dependent variables will be imputed missing values by random forest model assembled. They choose the row and the column as the new small vectors.",
+   "raw": "As dependent variables for iteration, and each dependent variables will be imputed missing values by random forest model assembled. They choose the row and the column as the new small vectors.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 58,
+   "start": 1189.296,
+   "end": 1216.864,
+   "lang": "en",
+   "text": "For country models temporarily, then after iteration of Gibbs sampling, every random forest model came out an subset, and then assembled those subset as output for the second layer in knife set approach, and to compare the simple algorithms with IPCC's tier one method using broadleaf forest parameters, five indices were considered.",
+   "raw": "For country models temporarily, then after iteration of Gibbs sampling, every random forest model came out an subset, and then assembled those subset as output for the second layer in knife set approach, and to compare the simple algorithms with IPCC's tier one method using broadleaf forest parameters, five indices were considered.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 59,
+   "start": 1216.864,
+   "end": 1243.088,
+   "lang": "en",
+   "text": "They are mean absolute percentage error and root mean square error, and mean square error and mean error. Okay, now we start the so the discussion for carbon stock and sinks are usually estimated by regression models, and regression models work well for above ground carbon stocks and sinks.",
+   "raw": "They are mean absolute percentage error and root mean square error, and mean square error and mean error. Okay, now we start the so the discussion for carbon stock and sinks are usually estimated by regression models, and regression models work well for above ground carbon stocks and sinks.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 60,
+   "start": 1243.088,
+   "end": 1261.544,
+   "lang": "en",
+   "text": "But are relevant the effect for below ground part, and this mainly because the relationship between the independent variables and independent variables are commonly chaotic or divergent and appear everywhere in nature ecosystems. There is.",
+   "raw": "But are relevant the effect for below ground part, and this mainly because the relationship between the independent variables and independent variables are commonly chaotic or divergent and appear everywhere in nature ecosystems. There is.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 61,
+   "start": 1261.592,
+   "end": 1286.048,
+   "lang": "en",
+   "text": "Large variability in belowground CCS estimated amount sites and high estimate uncertainties, which can be attributed to environmental and anthropogenic factors such as temperature, precipitation, soil chemical properties, and biotic communities.",
+   "raw": "Large variability in belowground CCS estimated amount sites and high estimate uncertainties, which can be attributed to environmental and anthropogenic factors such as temperature, precipitation, soil chemical properties, and biotic communities.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 62,
+   "start": 1286.048,
+   "end": 1293.136,
+   "lang": "en",
+   "text": "Nutrient availabilities, management intensity, and ecosystem productivity—something like that.",
+   "raw": "Nutrient availabilities, management intensity, and ecosystem productivity—something like that.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 63,
+   "start": 1293.136,
+   "end": 1315.976,
+   "lang": "en",
+   "text": "And bamboo forests are one of types of terrestrial ecosystem. In different climate classifications, will have totally different amount of the carbon stock and sinks because they have the resin system and can transport the carbon hydrate to other places and support the youngs of or new root development.",
+   "raw": "And bamboo forests are one of types of terrestrial ecosystem. In different climate classifications, will have totally different amount of the carbon stock and sinks because they have the resin system and can transport the carbon hydrate to other places and support the youngs of or new root development.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 64,
+   "start": 1316.312,
+   "end": 1343.08,
+   "lang": "en",
+   "text": "So they have a more higher characteristic in their study site in their habit and above ground carbon have a significant correlation with basal area and is quite suit for constructing linear regression to estimate the above ground biomass, and Okuda, since in 2006 also made.",
+   "raw": "So they have a more higher characteristic in their study site in their habit and above ground carbon have a significant correlation with basal area and is quite suit for constructing linear regression to estimate the above ground biomass, and Okuda, since in 2006 also made.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 65,
+   "start": 1343.384,
+   "end": 1357.352,
+   "lang": "en",
+   "text": "This kind of linear model to estimate the muscle bamboos above ground biomass in Japan as well, and we also found the hydrotroughic respiration have a significant correlation with the NPP.",
+   "raw": "This kind of linear model to estimate the muscle bamboos above ground biomass in Japan as well, and we also found the hydrotroughic respiration have a significant correlation with the NPP.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 66,
+   "start": 1357.656,
+   "end": 1374.856,
+   "lang": "en",
+   "text": "And a slight significant correlation with litterfall mass. Perhaps it means that if microbiome communities in soil decompose organic matter supply during litterfall increase, and then nutrient supply to.",
+   "raw": "And a slight significant correlation with litterfall mass. Perhaps it means that if microbiome communities in soil decompose organic matter supply during litterfall increase, and then nutrient supply to.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 67,
+   "start": 1374.872,
+   "end": 1401.48,
+   "lang": "en",
+   "text": "Most of bamboo, it will cause most of bamboo's NPP increase or total nutrient in soil drive the activity of microbiome to activate the N cycles, ammonifications and nitrifications, and cause the heterotrophic respiration has been driven as well. However, just only two peer-reviewed study recorded total.",
+   "raw": "Most of bamboo, it will cause most of bamboo's NPP increase or total nutrient in soil drive the activity of microbiome to activate the N cycles, ammonifications and nitrifications, and cause the heterotrophic respiration has been driven as well. However, just only two peer-reviewed study recorded total.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 68,
+   "start": 1401.688,
+   "end": 1428.968,
+   "lang": "en",
+   "text": "Nutrient in soil and heterotrophic respiration at the same study site in China, and the MPP just have a slight significant correlation with the total nutrient in soil, and the observations number is only three, two in this study and one in China. The relationship between the soil nutrient heterotrophic respiration MPP has potential.",
+   "raw": "Nutrient in soil and heterotrophic respiration at the same study site in China, and the MPP just have a slight significant correlation with the total nutrient in soil, and the observations number is only three, two in this study and one in China. The relationship between the soil nutrient heterotrophic respiration MPP has potential.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 69,
+   "start": 1428.984,
+   "end": 1453.832,
+   "lang": "en",
+   "text": "For discovering the insight in the future, and below ground net primary production has a significant correlation with deep net production. Perhaps it implies that the more leaves form, the more root and the rhizome grows because most of bamboo's leaves produce sugars and supply for developing roots and the rhizome.",
+   "raw": "For discovering the insight in the future, and below ground net primary production has a significant correlation with deep net production. Perhaps it implies that the more leaves form, the more root and the rhizome grows because most of bamboo's leaves produce sugars and supply for developing roots and the rhizome.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 70,
+   "start": 1454.104,
+   "end": 1477.224,
+   "lang": "en",
+   "text": "The table revealed the performance of ninth set approach, and the approach is better than the IPCC's T1 methods using broadleaf forest parameters in all of the indices. And from the, sorry, so sorry, and.",
+   "raw": "The table revealed the performance of ninth set approach, and the approach is better than the IPCC's T1 methods using broadleaf forest parameters in all of the indices. And from the, sorry, so sorry, and.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 71,
+   "start": 1477.4,
+   "end": 1496.072,
+   "lang": "en",
+   "text": "Because the IPCC set was above ground carbon, below ground carbon, and the total carbon stocks have a lower performance than the knife set approach, and in this kind of figure, the y-axis is the observations value.",
+   "raw": "Because the IPCC set was above ground carbon, below ground carbon, and the total carbon stocks have a lower performance than the knife set approach, and in this kind of figure, the y-axis is the observations value.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 72,
+   "start": 1496.152,
+   "end": 1522.8,
+   "lang": "en",
+   "text": "And the x axis is the estimation value, and the MPP, B MPP, and the T MPP. Even though the result seems not so good for the life cycle approach proved, but is still better than the IPCC's type one methods. And I think perhaps we needed to collect more nutrient data from the other study sites.",
+   "raw": "And the x axis is the estimation value, and the MPP, B MPP, and the T MPP. Even though the result seems not so good for the life cycle approach proved, but is still better than the IPCC's type one methods. And I think perhaps we needed to collect more nutrient data from the other study sites.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 73,
+   "start": 1522.8,
+   "end": 1550.48,
+   "lang": "en",
+   "text": "Because it's very lack of this kind data nowadays in the most of the forest in the world. And after we did the ten cross validations, we also operate the holdout data set to make the holdout testing, and the performance is very similar with the ten cross validation, which means there is no overfitting of the NAFSET approach and of the.",
+   "raw": "Because it's very lack of this kind data nowadays in the most of the forest in the world. And after we did the ten cross validations, we also operate the holdout data set to make the holdout testing, and the performance is very similar with the ten cross validation, which means there is no overfitting of the NAFSET approach and of the.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 74,
+   "start": 1550.48,
+   "end": 1556.144,
+   "lang": "en",
+   "text": "Performance is better than the IPCC's tier one method. Okay, so.",
+   "raw": "Performance is better than the IPCC's tier one method. Okay, so.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 75,
+   "start": 1556.144,
+   "end": 1579.952,
+   "lang": "en",
+   "text": "Through the collecting lots of bamboo data worldwide and the operating Pearson's correlations, we found the aboveground carbon stocks and the basal area have a high correlation to each other. And NPP and the leaf net production also have this kind of phenomenal. And the NPP and the heterotrophic respiration.",
+   "raw": "Through the collecting lots of bamboo data worldwide and the operating Pearson's correlations, we found the aboveground carbon stocks and the basal area have a high correlation to each other. And NPP and the leaf net production also have this kind of phenomenal. And the NPP and the heterotrophic respiration.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 76,
+   "start": 1579.952,
+   "end": 1604.832,
+   "lang": "en",
+   "text": "Or total nutrient in soil have a correlation with each other as well in the philostachy edulis stands, and the performance of the said approach is better than borderly forest perimeters using the IPCC guideline for estimating carbon stocks and sinks in philostachy edulis stands, and we believe the KS approach.",
+   "raw": "Or total nutrient in soil have a correlation with each other as well in the philostachy edulis stands, and the performance of the said approach is better than borderly forest perimeters using the IPCC guideline for estimating carbon stocks and sinks in philostachy edulis stands, and we believe the KS approach.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  },
+  {
+   "i": 77,
+   "start": 1604.832,
+   "end": 1613.0,
+   "lang": "en",
+   "text": "Also, can be applied in other forests if the dataset is reliable. Thanks for your attention.",
+   "raw": "Also, can be applied in other forests if the dataset is reliable. Thanks for your attention.",
+   "flags": [],
+   "dropped": false,
+   "retried": 0,
+   "fixed": [],
+   "avg_logprob": null,
+   "no_speech_prob": null,
+   "lang_probs": {}
+  }
+ ],
+ "cues": [
+  {
+   "start": 13.816,
+   "end": 15.406,
+   "text": "One, I'm Stephen"
+  },
+  {
+   "start": 15.416,
+   "end": 19.486,
+   "text": "because each author of this study is responsible"
+  },
+  {
+   "start": 19.496000000000002,
+   "end": 23.005999999999997,
+   "text": "for the corresponding part. Not all authors"
+  },
+  {
+   "start": 23.016,
+   "end": 26.856,
+   "text": "understand each other's contents, so."
+  },
+  {
+   "start": 27.512,
+   "end": 31.992,
+   "text": "We plan to hold an internal briefing on the study"
+  },
+  {
+   "start": 32.232,
+   "end": 36.302,
+   "text": "today. I would like to talk about the study"
+  },
+  {
+   "start": 36.312,
+   "end": 40.622,
+   "text": "I almost redesigned and finished during the inner"
+  },
+  {
+   "start": 40.632,
+   "end": 42.222,
+   "text": "rebuttal period"
+  },
+  {
+   "start": 42.232,
+   "end": 45.822,
+   "text": "and the topic is estimating divergent carbon"
+  },
+  {
+   "start": 45.832,
+   "end": 48.792,
+   "text": "stocks and sinks. I've said approach."
+  },
+  {
+   "start": 49.175999999999995,
+   "end": 51.086,
+   "text": "Before start the presentation"
+  },
+  {
+   "start": 51.096,
+   "end": 54.926,
+   "text": "I needed to make a confession. At that outset, here"
+  },
+  {
+   "start": 54.936,
+   "end": 56.846,
+   "text": "a little over ten years ago"
+  },
+  {
+   "start": 56.855999999999995,
+   "end": 59.166000000000004,
+   "text": "I did something that I regret"
+  },
+  {
+   "start": 59.176,
+   "end": 62.046,
+   "text": "something that I'm not particularly proud of"
+  },
+  {
+   "start": 62.056,
+   "end": 66.446,
+   "text": "but here I feel a kind of obliged to reveal. In the"
+  },
+  {
+   "start": 66.456,
+   "end": 71.73599999999999,
+   "text": "late 2010s, in the moment of young indiscretion."
+  },
+  {
+   "start": 72.24799999999999,
+   "end": 75.03799999999998,
+   "text": "I went to a university. At that moment"
+  },
+  {
+   "start": 75.04799999999999,
+   "end": 78.87799999999999,
+   "text": "I did not do very well in English exams"
+  },
+  {
+   "start": 78.88799999999999,
+   "end": 83.60799999999999,
+   "text": "and was still like an idiot. I even thought"
+  },
+  {
+   "start": 83.768,
+   "end": 87.038,
+   "text": "ignorant that machine learning should be a cool"
+  },
+  {
+   "start": 87.048,
+   "end": 89.60799999999999,
+   "text": "science fiction technology, something that the."
+  },
+  {
+   "start": 90.01599999999999,
+   "end": 93.20599999999999,
+   "text": "But today, against my better judgment"
+  },
+  {
+   "start": 93.216,
+   "end": 96.886,
+   "text": "I want to try to dust off some of those machine"
+  },
+  {
+   "start": 96.896,
+   "end": 99.92599999999999,
+   "text": "learning skills. What's left of those machine"
+  },
+  {
+   "start": 99.93599999999999,
+   "end": 100.806,
+   "text": "learning skills?"
+  },
+  {
+   "start": 100.816,
+   "end": 105.44599999999998,
+   "text": "And I don't want to tell you complicated technical"
+  },
+  {
+   "start": 105.45599999999999,
+   "end": 109.28599999999999,
+   "text": "details. I want to make a case. I want to make a"
+  },
+  {
+   "start": 109.29599999999999,
+   "end": 110.496,
+   "text": "hard-headed."
+  },
+  {
+   "start": 112.272,
+   "end": 113.872,
+   "text": "Evidence-based for rethinking how we"
+  },
+  {
+   "start": 113.952,
+   "end": 117.072,
+   "text": "conceptualize the knife-set approach and how we"
+  },
+  {
+   "start": 117.152,
+   "end": 120.432,
+   "text": "estimate carbon sinks and stocks. And here is my"
+  },
+  {
+   "start": 120.512,
+   "end": 123.462,
+   "text": "outline. I will review the proposed in"
+  },
+  {
+   "start": 123.47200000000001,
+   "end": 126.182,
+   "text": "introduction and describe the knife-set"
+  },
+  {
+   "start": 126.19200000000001,
+   "end": 130.262,
+   "text": "approach in materials and methods. And and then"
+  },
+  {
+   "start": 130.272,
+   "end": 134.18200000000002,
+   "text": "discuss about some new findings and compare our"
+  },
+  {
+   "start": 134.192,
+   "end": 138.192,
+   "text": "methods with IPCC's methods benchmark."
+  },
+  {
+   "start": 138.704,
+   "end": 140.06400000000002,
+   "text": "And make a conclusion"
+  },
+  {
+   "start": 141.024,
+   "end": 143.25400000000002,
+   "text": ". Around two years ago"
+  },
+  {
+   "start": 143.264,
+   "end": 146.624,
+   "text": "Kobayashi Sensei and I shared published research"
+  },
+  {
+   "start": 146.704,
+   "end": 148.614,
+   "text": "articles with each others"
+  },
+  {
+   "start": 148.624,
+   "end": 151.424,
+   "text": "and then we found one paper mentioned that"
+  },
+  {
+   "start": 152.22400000000002,
+   "end": 155.584,
+   "text": "when the annual mean temperature was increased"
+  },
+  {
+   "start": 155.66400000000002,
+   "end": 159.264,
+   "text": "and the above ground biomass of most of bamboo."
+  },
+  {
+   "start": 159.672,
+   "end": 162.86200000000002,
+   "text": "Was increased in Taiwan as well. However"
+  },
+  {
+   "start": 162.872,
+   "end": 166.86200000000002,
+   "text": "it's totally different in Japan. He said. Hence"
+  },
+  {
+   "start": 166.872,
+   "end": 168.30200000000002,
+   "text": "a question is formed"
+  },
+  {
+   "start": 168.312,
+   "end": 172.072,
+   "text": "Is the phenomenon possibly like a carrying"
+  },
+  {
+   "start": 172.152,
+   "end": 173.58200000000002,
+   "text": "capacities index"
+  },
+  {
+   "start": 173.592,
+   "end": 177.18200000000002,
+   "text": "such as forest above ground biomass?"
+  },
+  {
+   "start": 177.192,
+   "end": 180.702,
+   "text": "And we made an assumption as the figure"
+  },
+  {
+   "start": 180.712,
+   "end": 184.382,
+   "text": "and there is a temperature period is suitable for"
+  },
+  {
+   "start": 184.392,
+   "end": 187.192,
+   "text": "moss bamboos growing, like this figure."
+  },
+  {
+   "start": 187.768,
+   "end": 190.798,
+   "text": "Too hot or too cold will cause the above-ground"
+  },
+  {
+   "start": 190.808,
+   "end": 193.928,
+   "text": "biomass of the moss bamboo to decrease. And after"
+  },
+  {
+   "start": 194.008,
+   "end": 197.368,
+   "text": "that, we collect moss bamboo forest data from"
+  },
+  {
+   "start": 197.528,
+   "end": 198.96800000000002,
+   "text": "Japan and Taiwan."
+  },
+  {
+   "start": 199.592,
+   "end": 203.02200000000002,
+   "text": "And the distribution of the biomass and the annual"
+  },
+  {
+   "start": 203.032,
+   "end": 207.18200000000002,
+   "text": "mean temperature shows like the figures. And we"
+  },
+  {
+   "start": 207.192,
+   "end": 209.912,
+   "text": "found that even though the assumption is"
+  },
+  {
+   "start": 209.99200000000002,
+   "end": 211.18200000000002,
+   "text": "partially correct"
+  },
+  {
+   "start": 211.192,
+   "end": 215.102,
+   "text": "it may have some hidden variables. It seeks behind"
+  },
+  {
+   "start": 215.112,
+   "end": 216.31199999999998,
+   "text": "the phenomenal."
+  },
+  {
+   "start": 216.48,
+   "end": 220.72,
+   "text": "Because we also found a lot of observation themes"
+  },
+  {
+   "start": 220.88,
+   "end": 226.07,
+   "text": "divergent, and if I added data from China and Korea"
+  },
+  {
+   "start": 226.07999999999998,
+   "end": 230.23,
+   "text": "our assumption above is not easy to prove. So we"
+  },
+  {
+   "start": 230.23999999999998,
+   "end": 233.28,
+   "text": "stuck on the assumption here. On the other hand."
+  },
+  {
+   "start": 233.648,
+   "end": 236.99800000000002,
+   "text": "The above assumption reminded me that Dr. Chen"
+  },
+  {
+   "start": 237.008,
+   "end": 240.99800000000002,
+   "text": "Chaihui and I was trying to use regression model to"
+  },
+  {
+   "start": 241.008,
+   "end": 243.798,
+   "text": "predict the mossel bamboo biomass and the carbon"
+  },
+  {
+   "start": 243.808,
+   "end": 245.968,
+   "text": "stocks about seven years ago."
+  },
+  {
+   "start": 246.456,
+   "end": 250.456,
+   "text": "And this kind model has a good ability to evaluate"
+  },
+  {
+   "start": 250.536,
+   "end": 252.526,
+   "text": "the aboveground biomass"
+  },
+  {
+   "start": 252.536,
+   "end": 255.886,
+   "text": "but very awful in belowground part. And we cannot"
+  },
+  {
+   "start": 255.896,
+   "end": 259.496,
+   "text": "solve the problem if the independent variables"
+  },
+  {
+   "start": 259.816,
+   "end": 263.006,
+   "text": "and the dependent variables divergent on the"
+  },
+  {
+   "start": 263.01599999999996,
+   "end": 265.896,
+   "text": "distribution at the moment. Perhaps it's"
+  },
+  {
+   "start": 266.216,
+   "end": 269.486,
+   "text": "necessary to find a method for belowground carbon"
+  },
+  {
+   "start": 269.496,
+   "end": 270.69599999999997,
+   "text": "sink and stocks."
+  },
+  {
+   "start": 270.976,
+   "end": 274.64599999999996,
+   "text": "And we want to build a model which can be used to"
+  },
+  {
+   "start": 274.65599999999995,
+   "end": 278.32599999999996,
+   "text": "predict the dependent variables when the"
+  },
+  {
+   "start": 278.33599999999996,
+   "end": 280.816,
+   "text": "independent variables are divergent and and"
+  },
+  {
+   "start": 280.89599999999996,
+   "end": 284.166,
+   "text": "chaotic on the distribution in ecological"
+  },
+  {
+   "start": 284.176,
+   "end": 285.45599999999996,
+   "text": "systems. So."
+  },
+  {
+   "start": 286.168,
+   "end": 289.438,
+   "text": "Previously, we was used my methods"
+  },
+  {
+   "start": 289.448,
+   "end": 293.768,
+   "text": "which is a Gibbs sampling type Monte Carlo plus"
+  },
+  {
+   "start": 294.008,
+   "end": 297.608,
+   "text": "linear regression and random forest methods to"
+  },
+  {
+   "start": 297.688,
+   "end": 300.158,
+   "text": "impute the raw data set. Then"
+  },
+  {
+   "start": 300.168,
+   "end": 303.758,
+   "text": "used the bidirectional stepwise regression"
+  },
+  {
+   "start": 303.768,
+   "end": 307.358,
+   "text": "methods to build a series of linear regression"
+  },
+  {
+   "start": 307.368,
+   "end": 310.08799999999997,
+   "text": "models and output the prediction."
+  },
+  {
+   "start": 310.42400000000004,
+   "end": 313.544,
+   "text": "However, the method contained some part of"
+  },
+  {
+   "start": 313.86400000000003,
+   "end": 318.504,
+   "text": "produced data, which means if some factors are not"
+  },
+  {
+   "start": 318.664,
+   "end": 322.73400000000004,
+   "text": "so have a higher explanation power"
+  },
+  {
+   "start": 322.744,
+   "end": 327.704,
+   "text": "it perhaps caused a overfitting in the output. And"
+  },
+  {
+   "start": 328.264,
+   "end": 331.704,
+   "text": "furthermore, after that, Richard and Simon."
+  },
+  {
+   "start": 332.064,
+   "end": 335.894,
+   "text": "And I build a hybrid method which combined time"
+  },
+  {
+   "start": 335.904,
+   "end": 339.894,
+   "text": "series ARIMA and Gibbs sampling with random"
+  },
+  {
+   "start": 339.904,
+   "end": 343.174,
+   "text": "forests to estimate the stock price"
+  },
+  {
+   "start": 343.18399999999997,
+   "end": 346.144,
+   "text": "and is hence workable for estimating divergent"
+  },
+  {
+   "start": 346.224,
+   "end": 349.494,
+   "text": "target variables in chaotic systems. That"
+  },
+  {
+   "start": 349.504,
+   "end": 354.374,
+   "text": "experience led me to consider how about to use the"
+  },
+  {
+   "start": 354.384,
+   "end": 357.334,
+   "text": "similar structure to estimate chaotic or"
+  },
+  {
+   "start": 357.344,
+   "end": 358.944,
+   "text": "divergent variables."
+  },
+  {
+   "start": 359.184,
+   "end": 363.344,
+   "text": "Okay, so let's start today's"
+  },
+  {
+   "start": 364.624,
+   "end": 366.304,
+   "text": "internal briefing"
+  },
+  {
+   "start": 367.504,
+   "end": 368.704,
+   "text": ", and"
+  },
+  {
+   "start": 369.024,
+   "end": 370.224,
+   "text": "for the first part."
+  },
+  {
+   "start": 370.656,
+   "end": 373.76599999999996,
+   "text": "What is necessary to investigate the biomass and"
+  },
+  {
+   "start": 373.77599999999995,
+   "end": 377.926,
+   "text": "the mega carbon storage models in bamboo forests?"
+  },
+  {
+   "start": 377.936,
+   "end": 381.126,
+   "text": "And I think because of land use changed"
+  },
+  {
+   "start": 381.13599999999997,
+   "end": 384.976,
+   "text": "especially deforestation and agricultural"
+  },
+  {
+   "start": 385.056,
+   "end": 386.966,
+   "text": "activities increase"
+  },
+  {
+   "start": 386.976,
+   "end": 389.76599999999996,
+   "text": "energy consumption and the burning fossil fuels"
+  },
+  {
+   "start": 389.77599999999995,
+   "end": 391.926,
+   "text": "which comes from the below ground"
+  },
+  {
+   "start": 391.936,
+   "end": 394.976,
+   "text": "the greenhouse gas emission have skyrocketed"
+  },
+  {
+   "start": 395.056,
+   "end": 397.536,
+   "text": "after the industrial revolution."
+  },
+  {
+   "start": 397.92,
+   "end": 400.64,
+   "text": "And the greenhouse effect has intensified"
+  },
+  {
+   "start": 400.71999999999997,
+   "end": 404.71,
+   "text": "recently, and all above reasons are very likely"
+  },
+  {
+   "start": 404.71999999999997,
+   "end": 406.71,
+   "text": "causing global warming"
+  },
+  {
+   "start": 406.71999999999997,
+   "end": 410.23,
+   "text": "which is also inducing extreme weather and the"
+  },
+  {
+   "start": 410.24,
+   "end": 413.36,
+   "text": "climate change, and the carbon stocks."
+  },
+  {
+   "start": 413.68800000000005,
+   "end": 417.75800000000004,
+   "text": "In vegetation is an important role in carbon cycle"
+  },
+  {
+   "start": 417.76800000000003,
+   "end": 420.968,
+   "text": "which affects carbon dioxide to meet in the air on"
+  },
+  {
+   "start": 421.12800000000004,
+   "end": 425.278,
+   "text": "Earth. And for combating the hard core problem"
+  },
+  {
+   "start": 425.288,
+   "end": 428.23800000000006,
+   "text": "the United Nations Framework Convention on"
+  },
+  {
+   "start": 428.24800000000005,
+   "end": 433.208,
+   "text": "Climate Change is adopted on the ninth of May in"
+  },
+  {
+   "start": 433.368,
+   "end": 438.168,
+   "text": "nineteen ninety-two. And in the UNFCCC, a lot of."
+  },
+  {
+   "start": 438.416,
+   "end": 442.326,
+   "text": "Countries will arrange some policymakers to"
+  },
+  {
+   "start": 442.336,
+   "end": 446.166,
+   "text": "attend their conference. Intergovernmental"
+  },
+  {
+   "start": 446.176,
+   "end": 449.776,
+   "text": "Panel on Climate Change will provide scientific"
+  },
+  {
+   "start": 449.856,
+   "end": 454.336,
+   "text": "reports and studies to the UNFCCC and help"
+  },
+  {
+   "start": 454.49600000000004,
+   "end": 458.48600000000005,
+   "text": "policymakers to assist climate policy. So"
+  },
+  {
+   "start": 458.49600000000004,
+   "end": 461.606,
+   "text": "forest carbon sink and stocks are also important"
+  },
+  {
+   "start": 461.616,
+   "end": 464.576,
+   "text": "for policymakers to assist policies of"
+  },
+  {
+   "start": 464.656,
+   "end": 465.856,
+   "text": "mitigation."
+  },
+  {
+   "start": 465.88800000000003,
+   "end": 469.478,
+   "text": "However, aometric model of carbon stock and sinks"
+  },
+  {
+   "start": 469.488,
+   "end": 473.07800000000003,
+   "text": "of below ground in bamboo forests looks always low"
+  },
+  {
+   "start": 473.088,
+   "end": 475.558,
+   "text": "accuracy. Why?"
+  },
+  {
+   "start": 475.568,
+   "end": 476.51800000000003,
+   "text": "Before answering"
+  },
+  {
+   "start": 476.528,
+   "end": 480.278,
+   "text": "we need to talk about the spatial characteristics"
+  },
+  {
+   "start": 480.288,
+   "end": 481.87800000000004,
+   "text": "of bamboo. Here"
+  },
+  {
+   "start": 481.88800000000003,
+   "end": 485.958,
+   "text": "we provide a case of Philostichus edulis"
+  },
+  {
+   "start": 485.968,
+   "end": 489.238,
+   "text": "and bamboo forests are widely distributed in the"
+  },
+  {
+   "start": 489.248,
+   "end": 490.43600000000004,
+   "text": "world."
+  },
+  {
+   "start": 490.456,
+   "end": 495.00600000000003,
+   "text": "For instance, you will find them in Asia, America"
+  },
+  {
+   "start": 495.016,
+   "end": 497.816,
+   "text": "and Africa, but somehow."
+  },
+  {
+   "start": 498.20000000000005,
+   "end": 502.35,
+   "text": "Two years ago, I saw some planted bamboos in France"
+  },
+  {
+   "start": 502.36,
+   "end": 503.71000000000004,
+   "text": "as well. Anyway"
+  },
+  {
+   "start": 503.72,
+   "end": 506.83000000000004,
+   "text": "most of bamboo is a kind of temperate wood bamboo"
+  },
+  {
+   "start": 506.84000000000003,
+   "end": 510.28000000000003,
+   "text": "and widely distributed in Eastern Asia. And"
+  },
+  {
+   "start": 510.36,
+   "end": 513.07,
+   "text": "because of bamboo have no cambium"
+  },
+  {
+   "start": 513.08,
+   "end": 516.4300000000001,
+   "text": "they will accumulate dry matters in the secondary"
+  },
+  {
+   "start": 516.44,
+   "end": 520.4300000000001,
+   "text": "wall year by year. And after finish their growth at"
+  },
+  {
+   "start": 520.44,
+   "end": 523.08,
+   "text": "the H one, they do not consumed."
+  },
+  {
+   "start": 523.512,
+   "end": 526.222,
+   "text": "Quite a lot carbonhydrate animal"
+  },
+  {
+   "start": 526.232,
+   "end": 530.312,
+   "text": "and due to mature bamboos do not consume too much"
+  },
+  {
+   "start": 530.552,
+   "end": 534.472,
+   "text": "carbonhydrate, carbonhydrate may transport to"
+  },
+  {
+   "start": 534.632,
+   "end": 537.2719999999999,
+   "text": "other bamboos or shot, and so far."
+  },
+  {
+   "start": 537.504,
+   "end": 541.174,
+   "text": "Some study revealed that most of bamboos have a"
+  },
+  {
+   "start": 541.184,
+   "end": 544.624,
+   "text": "resin system and can transport carbonhydrate and"
+  },
+  {
+   "start": 544.784,
+   "end": 547.734,
+   "text": "nutrient to somewhere. This may be one of the main"
+  },
+  {
+   "start": 547.744,
+   "end": 552.934,
+   "text": "reason that below ground biomass ANPP and BNP P are"
+  },
+  {
+   "start": 552.944,
+   "end": 556.534,
+   "text": "divergent in bamboo forest. Okay"
+  },
+  {
+   "start": 556.544,
+   "end": 559.824,
+   "text": "now we get back to the problem nowadays."
+  },
+  {
+   "start": 560.208,
+   "end": 561.798,
+   "text": "Of the climate change"
+  },
+  {
+   "start": 561.808,
+   "end": 565.4780000000001,
+   "text": "and even though carbon storage in vegetation is an"
+  },
+  {
+   "start": 565.488,
+   "end": 568.598,
+   "text": "important factor in carbon cycle"
+  },
+  {
+   "start": 568.608,
+   "end": 572.198,
+   "text": "the method provided by IPCC's guideline is a"
+  },
+  {
+   "start": 572.208,
+   "end": 573.238,
+   "text": "little bit rough"
+  },
+  {
+   "start": 573.248,
+   "end": 576.768,
+   "text": "especially on estimated bamboo carbon stocks and"
+  },
+  {
+   "start": 576.848,
+   "end": 580.838,
+   "text": "sequestration. So they just rely on one study from"
+  },
+  {
+   "start": 580.848,
+   "end": 583.088,
+   "text": "Africa, and it's."
+  },
+  {
+   "start": 583.584,
+   "end": 588.054,
+   "text": "Parties of UNFCCC may use bodily forest data to"
+  },
+  {
+   "start": 588.064,
+   "end": 591.1039999999999,
+   "text": "calculate the carbon stock and the sinks."
+  },
+  {
+   "start": 591.312,
+   "end": 592.662,
+   "text": "In bamboo forest"
+  },
+  {
+   "start": 592.672,
+   "end": 595.952,
+   "text": "hence the purpose of this study is to investigate"
+  },
+  {
+   "start": 596.192,
+   "end": 597.702,
+   "text": "biomass, carbon storage"
+  },
+  {
+   "start": 597.712,
+   "end": 600.982,
+   "text": "and nutrient contents in soil of most of bamboo"
+  },
+  {
+   "start": 600.992,
+   "end": 604.422,
+   "text": "forest, and to collect previous published"
+  },
+  {
+   "start": 604.432,
+   "end": 606.0219999999999,
+   "text": "journal articles data"
+  },
+  {
+   "start": 606.0319999999999,
+   "end": 610.0319999999999,
+   "text": "and to design a method combined linear regression"
+  },
+  {
+   "start": 610.112,
+   "end": 613.472,
+   "text": "and random forest with skip sampling approach for"
+  },
+  {
+   "start": 613.552,
+   "end": 617.302,
+   "text": "estimating carbon stocks and sinks in forest"
+  },
+  {
+   "start": 617.312,
+   "end": 618.9119999999999,
+   "text": "and our study said."
+  },
+  {
+   "start": 618.928,
+   "end": 623.398,
+   "text": "Is in FFPRI Kansai Research Center in Japan"
+  },
+  {
+   "start": 623.408,
+   "end": 627.558,
+   "text": "and the annual temperature is around the sixteen"
+  },
+  {
+   "start": 627.568,
+   "end": 629.318,
+   "text": "point four Celsius degree"
+  },
+  {
+   "start": 629.328,
+   "end": 633.008,
+   "text": "and the annual mean precipitation is one thousand"
+  },
+  {
+   "start": 633.088,
+   "end": 636.678,
+   "text": "seven hundred and five millimeter per year"
+  },
+  {
+   "start": 636.688,
+   "end": 639.4879999999999,
+   "text": "and the diapch is around the nine point seven"
+  },
+  {
+   "start": 639.728,
+   "end": 643.238,
+   "text": "centimeters, and the high is nearly fifteen"
+  },
+  {
+   "start": 643.248,
+   "end": 645.728,
+   "text": "meters. The cum density is."
+  },
+  {
+   "start": 645.776,
+   "end": 648.646,
+   "text": "Around nine thousand per hectare. Furthermore"
+  },
+  {
+   "start": 648.656,
+   "end": 651.6959999999999,
+   "text": "the total biomass is one hundred and"
+  },
+  {
+   "start": 652.736,
+   "end": 655.366,
+   "text": "eighty-six megagram per hectare. All of them are"
+  },
+  {
+   "start": 655.376,
+   "end": 659.206,
+   "text": "larger than the average size in China, Korea"
+  },
+  {
+   "start": 659.216,
+   "end": 660.416,
+   "text": "and Taiwan."
+  },
+  {
+   "start": 660.472,
+   "end": 663.822,
+   "text": "At the beginning of the series studies"
+  },
+  {
+   "start": 663.832,
+   "end": 666.872,
+   "text": "we set study site at the sample plot in"
+  },
+  {
+   "start": 666.952,
+   "end": 668.942,
+   "text": "investigation biomass"
+  },
+  {
+   "start": 668.952,
+   "end": 671.822,
+   "text": "especially in above ground biomass and below"
+  },
+  {
+   "start": 671.832,
+   "end": 672.782,
+   "text": "ground biomass"
+  },
+  {
+   "start": 672.792,
+   "end": 676.302,
+   "text": "and then dried the samples and run elemental"
+  },
+  {
+   "start": 676.312,
+   "end": 679.912,
+   "text": "analyzer to know the carbon ratio in biomass to"
+  },
+  {
+   "start": 679.992,
+   "end": 682.232,
+   "text": "estimate the carbon stock and the sinks."
+  },
+  {
+   "start": 682.4480000000001,
+   "end": 686.118,
+   "text": "After we obtain the data for carbon stock and the"
+  },
+  {
+   "start": 686.128,
+   "end": 689.238,
+   "text": "sequestration of most of bamboo forest in Japan"
+  },
+  {
+   "start": 689.248,
+   "end": 692.6880000000001,
+   "text": "and Taiwan, we also collect other reliable"
+  },
+  {
+   "start": 693.648,
+   "end": 696.038,
+   "text": "peer-reviewed articles on Google Scholar and"
+  },
+  {
+   "start": 696.048,
+   "end": 699.9580000000001,
+   "text": "read them carefully and record their details. And"
+  },
+  {
+   "start": 699.9680000000001,
+   "end": 701.878,
+   "text": "after we collected data"
+  },
+  {
+   "start": 701.888,
+   "end": 705.4780000000001,
+   "text": "we start to wash and certificate data"
+  },
+  {
+   "start": 705.488,
+   "end": 707.3280000000001,
+   "text": "and this step took."
+  },
+  {
+   "start": 707.488,
+   "end": 710.918,
+   "text": "One of my summer vacations last year"
+  },
+  {
+   "start": 710.928,
+   "end": 712.998,
+   "text": "I totally had this step very much"
+  },
+  {
+   "start": 713.008,
+   "end": 715.558,
+   "text": "but it's quite important for the further"
+  },
+  {
+   "start": 715.568,
+   "end": 719.248,
+   "text": "analyzing. And after washing data."
+  },
+  {
+   "start": 719.696,
+   "end": 723.9359999999999,
+   "text": "We got a raw dataset and started to use our software"
+  },
+  {
+   "start": 725.0559999999999,
+   "end": 728.246,
+   "text": "to check our relationship between the variables"
+  },
+  {
+   "start": 728.256,
+   "end": 731.526,
+   "text": "and build linear regression models for"
+  },
+  {
+   "start": 731.536,
+   "end": 736.1759999999999,
+   "text": "estimating regular target variables as output of"
+  },
+  {
+   "start": 736.256,
+   "end": 739.206,
+   "text": "the first layer. And following this"
+  },
+  {
+   "start": 739.216,
+   "end": 742.486,
+   "text": "we estimate divergent variables via random"
+  },
+  {
+   "start": 742.496,
+   "end": 746.336,
+   "text": "forest with sampling assembled algorithms."
+  },
+  {
+   "start": 746.624,
+   "end": 750.134,
+   "text": "And because it's like a random forest wandering in"
+  },
+  {
+   "start": 750.144,
+   "end": 752.694,
+   "text": "a highly dimension space"
+  },
+  {
+   "start": 752.704,
+   "end": 756.454,
+   "text": "so we named it wandering through the random forest"
+  },
+  {
+   "start": 756.4639999999999,
+   "end": 757.664,
+   "text": "algorithm"
+  },
+  {
+   "start": 759.264,
+   "end": 760.624,
+   "text": ", and the random forest."
+  },
+  {
+   "start": 761.04,
+   "end": 764.39,
+   "text": "It's a kind of a simple machine learning method"
+  },
+  {
+   "start": 764.4,
+   "end": 768.23,
+   "text": "and because our data is tiny and have a lot of"
+  },
+  {
+   "start": 768.24,
+   "end": 769.35,
+   "text": "missing values"
+  },
+  {
+   "start": 769.36,
+   "end": 773.35,
+   "text": "it has a good ability to remove the collinearity"
+  },
+  {
+   "start": 773.36,
+   "end": 777.11,
+   "text": "and prevent the result become overfitting. At the"
+  },
+  {
+   "start": 777.12,
+   "end": 780.71,
+   "text": "beginning, we wrote the draft. I used the term in"
+  },
+  {
+   "start": 780.72,
+   "end": 782.88,
+   "text": "simple hybrid approach, but."
+  },
+  {
+   "start": 783.056,
+   "end": 786.2460000000001,
+   "text": "Kobashi sense and molecular sense don't think it"
+  },
+  {
+   "start": 786.2560000000001,
+   "end": 787.686,
+   "text": "is simple enough"
+  },
+  {
+   "start": 787.696,
+   "end": 791.856,
+   "text": "so I use the concept that molecular sense provided"
+  },
+  {
+   "start": 791.936,
+   "end": 793.1360000000001,
+   "text": "in a seminar."
+  },
+  {
+   "start": 793.7199999999999,
+   "end": 797.7099999999999,
+   "text": "And we emphasize that if independent variables"
+  },
+  {
+   "start": 797.7199999999999,
+   "end": 800.8299999999999,
+   "text": "and target variables have a good relationship"
+  },
+  {
+   "start": 800.8399999999999,
+   "end": 801.87,
+   "text": "with each other"
+  },
+  {
+   "start": 801.88,
+   "end": 805.39,
+   "text": "then we use linear regression model as an output."
+  },
+  {
+   "start": 805.4,
+   "end": 808.28,
+   "text": "And if the linear regression models can't"
+  },
+  {
+   "start": 808.4399999999999,
+   "end": 811.63,
+   "text": "estimate them, it will that wandering through the"
+  },
+  {
+   "start": 811.64,
+   "end": 815.4699999999999,
+   "text": "random forest to give an output. And if above"
+  },
+  {
+   "start": 815.4799999999999,
+   "end": 818.1999999999999,
+   "text": "methods still can't provide the values of"
+  },
+  {
+   "start": 818.28,
+   "end": 821.2399999999999,
+   "text": "estimation, it will use the climatological"
+  },
+  {
+   "start": 821.36,
+   "end": 826.4,
+   "text": "Tables to give an output. It can at least ensure"
+  },
+  {
+   "start": 826.48,
+   "end": 829.75,
+   "text": "that the accuracy of the output result is high."
+  },
+  {
+   "start": 829.76,
+   "end": 832.39,
+   "text": "Also, the precision sometimes might be"
+  },
+  {
+   "start": 832.4,
+   "end": 833.6,
+   "text": "relevantly low."
+  },
+  {
+   "start": 835.4159999999999,
+   "end": 838.206,
+   "text": "And now we talk about the detail of linear"
+  },
+  {
+   "start": 838.216,
+   "end": 840.846,
+   "text": "regression models. We operate Pearson"
+  },
+  {
+   "start": 840.856,
+   "end": 844.686,
+   "text": "correlations testing between all variables in"
+  },
+  {
+   "start": 844.696,
+   "end": 850.0559999999999,
+   "text": "raw dataset, and if p value is below zero point zero"
+  },
+  {
+   "start": 850.136,
+   "end": 852.766,
+   "text": "one between two variables"
+  },
+  {
+   "start": 852.776,
+   "end": 856.376,
+   "text": "then make simple linear regression model. Then."
+  },
+  {
+   "start": 856.6,
+   "end": 860.59,
+   "text": "After we explained the linear regression"
+  },
+  {
+   "start": 860.6,
+   "end": 863.8700000000001,
+   "text": "the output will going into the second layer"
+  },
+  {
+   "start": 863.8800000000001,
+   "end": 867.47,
+   "text": "and second layer the random forest and the gap"
+  },
+  {
+   "start": 867.48,
+   "end": 869.5600000000001,
+   "text": "sampling will treat them. and"
+  },
+  {
+   "start": 870.6,
+   "end": 873.07,
+   "text": "Let let me explain what is random forest. Random"
+  },
+  {
+   "start": 873.08,
+   "end": 875.71,
+   "text": "forest is an assemble method of many"
+  },
+  {
+   "start": 875.72,
+   "end": 879.5500000000001,
+   "text": "classification and the regression trees based on"
+  },
+  {
+   "start": 879.5600000000001,
+   "end": 882.44,
+   "text": "randomly bagging and form the new vectors"
+  },
+  {
+   "start": 882.6,
+   "end": 883.62,
+   "text": "randomly."
+  },
+  {
+   "start": 883.64,
+   "end": 887.4,
+   "text": "And the raw data will be divided into train set at"
+  },
+  {
+   "start": 888.12,
+   "end": 892.6800000000001,
+   "text": "sixty three point two five percent and the test set"
+  },
+  {
+   "start": 892.76,
+   "end": 897.23,
+   "text": "at thirty six point seven five percent for out of"
+  },
+  {
+   "start": 897.24,
+   "end": 898.1400000000001,
+   "text": "bag test."
+  },
+  {
+   "start": 898.1600000000001,
+   "end": 901.11,
+   "text": "And if the error rate over fifty percent"
+  },
+  {
+   "start": 901.12,
+   "end": 904.48,
+   "text": "then the forest will not output values. And this"
+  },
+  {
+   "start": 904.5600000000001,
+   "end": 908.23,
+   "text": "method is brilliant to solve the collinearity."
+  },
+  {
+   "start": 908.24,
+   "end": 910.47,
+   "text": "And I think you may have a question now"
+  },
+  {
+   "start": 910.48,
+   "end": 911.6800000000001,
+   "text": "What is country?"
+  },
+  {
+   "start": 912.2479999999999,
+   "end": 914.6379999999999,
+   "text": "Country is the abbreviation of the"
+  },
+  {
+   "start": 914.6479999999999,
+   "end": 918.6379999999999,
+   "text": "classification and regression tree models. If we"
+  },
+  {
+   "start": 918.6479999999999,
+   "end": 920.558,
+   "text": "want to make our tree models"
+  },
+  {
+   "start": 920.568,
+   "end": 924.6379999999999,
+   "text": "we need to select the optimal segmentation"
+  },
+  {
+   "start": 924.6479999999999,
+   "end": 929.598,
+   "text": "variable J and the segmentation point S. And the"
+  },
+  {
+   "start": 929.608,
+   "end": 933.1179999999999,
+   "text": "formula seems like rather unfriendly. Then we"
+  },
+  {
+   "start": 933.1279999999999,
+   "end": 934.968,
+   "text": "describe that more below."
+  },
+  {
+   "start": 935.576,
+   "end": 938.7760000000001,
+   "text": "I want to make a simple case. I assumed the data"
+  },
+  {
+   "start": 939.0160000000001,
+   "end": 943.086,
+   "text": "sheet like this. The simple data recorded three"
+  },
+  {
+   "start": 943.096,
+   "end": 946.8460000000001,
+   "text": "studies cited in Japan and two in Korea"
+  },
+  {
+   "start": 946.8560000000001,
+   "end": 948.0560000000002,
+   "text": "two in Taiwan."
+  },
+  {
+   "start": 948.184,
+   "end": 950.414,
+   "text": "If we choose say a country"
+  },
+  {
+   "start": 950.424,
+   "end": 954.254,
+   "text": "there will be three different divided types. The"
+  },
+  {
+   "start": 954.264,
+   "end": 959.864,
+   "text": "types one is R one as in Korea and R two as in Japan and"
+  },
+  {
+   "start": 960.024,
+   "end": 965.784,
+   "text": "Taiwan. And the type two is R one as in Japan and R two"
+  },
+  {
+   "start": 966.024,
+   "end": 971.384,
+   "text": "as in Korea and in Taiwan. And the type three is R one"
+  },
+  {
+   "start": 971.464,
+   "end": 973.784,
+   "text": "as in Taiwan and R two."
+  },
+  {
+   "start": 974.456,
+   "end": 976.846,
+   "text": "Us in Japan or in Korea"
+  },
+  {
+   "start": 976.856,
+   "end": 980.046,
+   "text": "and if we use the mean annual temperature to choose"
+  },
+  {
+   "start": 980.056,
+   "end": 983.416,
+   "text": "the best divided type, then we get to."
+  },
+  {
+   "start": 984.2479999999999,
+   "end": 988.568,
+   "text": "Calculate each group's mean square errors and"
+  },
+  {
+   "start": 988.6479999999999,
+   "end": 991.688,
+   "text": "then find the minimized mean square errors"
+  },
+  {
+   "start": 991.848,
+   "end": 995.838,
+   "text": "combination. And the type one mean square error is"
+  },
+  {
+   "start": 995.848,
+   "end": 998.6379999999999,
+   "text": "fifty nine. And the same as above"
+  },
+  {
+   "start": 998.6479999999999,
+   "end": 1001.678,
+   "text": "the type two's mean square error will be ninety"
+  },
+  {
+   "start": 1001.688,
+   "end": 1005.038,
+   "text": "seven. And the type three's mean square error is"
+  },
+  {
+   "start": 1005.048,
+   "end": 1006.248,
+   "text": "around eighteen."
+  },
+  {
+   "start": 1006.552,
+   "end": 1009.7420000000001,
+   "text": "So after that, we found the type three is the"
+  },
+  {
+   "start": 1009.7520000000001,
+   "end": 1014.942,
+   "text": "minimum MSE and it is the best divided structure."
+  },
+  {
+   "start": 1014.952,
+   "end": 1019.432,
+   "text": "And repeat the procedure until all variables have"
+  },
+  {
+   "start": 1019.5920000000001,
+   "end": 1022.7020000000001,
+   "text": "been classified. And then we made the country"
+  },
+  {
+   "start": 1022.7120000000001,
+   "end": 1026.5520000000001,
+   "text": "models. And if we assemble replicated result"
+  },
+  {
+   "start": 1026.632,
+   "end": 1029.582,
+   "text": "together, it will called random forest. So"
+  },
+  {
+   "start": 1029.592,
+   "end": 1030.5420000000001,
+   "text": "following this"
+  },
+  {
+   "start": 1030.5520000000001,
+   "end": 1033.742,
+   "text": "I would like to talk about what is Gibbs sampling."
+  },
+  {
+   "start": 1033.752,
+   "end": 1034.182,
+   "text": "It is."
+  },
+  {
+   "start": 1034.192,
+   "end": 1037.472,
+   "text": "The Markov chain Monte Carlo algorithms for"
+  },
+  {
+   "start": 1037.712,
+   "end": 1041.872,
+   "text": "obtain the sequence of observations which are"
+  },
+  {
+   "start": 1041.952,
+   "end": 1046.262,
+   "text": "approximately from a specified multivariate"
+  },
+  {
+   "start": 1046.272,
+   "end": 1049.862,
+   "text": "probability distribution when direct sampling"
+  },
+  {
+   "start": 1049.872,
+   "end": 1051.462,
+   "text": "is quite difficult"
+  },
+  {
+   "start": 1051.472,
+   "end": 1056.102,
+   "text": "and I still do not know what that was. And I read a lot"
+  },
+  {
+   "start": 1056.112,
+   "end": 1060.662,
+   "text": "of papers and conclude that in a simple concept"
+  },
+  {
+   "start": 1060.672,
+   "end": 1061.7559999999999,
+   "text": "below."
+  },
+  {
+   "start": 1061.7759999999998,
+   "end": 1066.566,
+   "text": "So, if our estimating values are not the number can"
+  },
+  {
+   "start": 1066.576,
+   "end": 1070.966,
+   "text": "be observed, they are existing in possibility in"
+  },
+  {
+   "start": 1070.9759999999999,
+   "end": 1074.2459999999999,
+   "text": "the undimension obtained by independent"
+  },
+  {
+   "start": 1074.2559999999999,
+   "end": 1078.7259999999999,
+   "text": "variables, and if we observe a lot of times under"
+  },
+  {
+   "start": 1078.7359999999999,
+   "end": 1080.886,
+   "text": "the law of large number"
+  },
+  {
+   "start": 1080.896,
+   "end": 1085.446,
+   "text": "we will get a highest possibility of expected"
+  },
+  {
+   "start": 1085.456,
+   "end": 1087.696,
+   "text": "value in the end, but."
+  },
+  {
+   "start": 1088.28,
+   "end": 1092.4299999999998,
+   "text": "It will cost huge calculating resources. It may"
+  },
+  {
+   "start": 1092.4399999999998,
+   "end": 1095.87,
+   "text": "take a few years to get in the result. Hence"
+  },
+  {
+   "start": 1095.8799999999999,
+   "end": 1099.6399999999999,
+   "text": "we use the Gibbs sampling and then do the"
+  },
+  {
+   "start": 1099.7199999999998,
+   "end": 1103.1599999999999,
+   "text": "iterations until the result coverage."
+  },
+  {
+   "start": 1103.736,
+   "end": 1106.2060000000001,
+   "text": "We are low of large numbers"
+  },
+  {
+   "start": 1106.2160000000001,
+   "end": 1110.606,
+   "text": "and I described it in a more intuitive way"
+  },
+  {
+   "start": 1110.616,
+   "end": 1115.486,
+   "text": "and give sampling fixed variables x one zero"
+  },
+  {
+   "start": 1115.496,
+   "end": 1119.016,
+   "text": "and operate the random forest model to predict the"
+  },
+  {
+   "start": 1119.256,
+   "end": 1123.176,
+   "text": "x one zero, and the missing value in the x one"
+  },
+  {
+   "start": 1123.256,
+   "end": 1124.856,
+   "text": "variables is predicted."
+  },
+  {
+   "start": 1125.344,
+   "end": 1130.374,
+   "text": "As the V one and the X one zero become X one one"
+  },
+  {
+   "start": 1130.384,
+   "end": 1132.854,
+   "text": "and then fix X two zero"
+  },
+  {
+   "start": 1132.864,
+   "end": 1135.904,
+   "text": "and make another random forest model to predict"
+  },
+  {
+   "start": 1136.064,
+   "end": 1139.814,
+   "text": "the two zero, and the round once process from the X"
+  },
+  {
+   "start": 1139.824,
+   "end": 1143.894,
+   "text": "one to X n is an iteration. In this study"
+  },
+  {
+   "start": 1143.904,
+   "end": 1147.654,
+   "text": "we did the ten to two hundred iterations. So"
+  },
+  {
+   "start": 1147.664,
+   "end": 1150.5339999999999,
+   "text": "combine the random forest and give simply. I"
+  },
+  {
+   "start": 1150.5439999999999,
+   "end": 1152.934,
+   "text": "subconclude the models."
+  },
+  {
+   "start": 1152.944,
+   "end": 1155.974,
+   "text": "Framework. After wash the raw data"
+  },
+  {
+   "start": 1155.984,
+   "end": 1159.094,
+   "text": "we build a simple linear regression models for"
+  },
+  {
+   "start": 1159.104,
+   "end": 1161.894,
+   "text": "estimate target variables which have a high"
+  },
+  {
+   "start": 1161.904,
+   "end": 1165.654,
+   "text": "correlation to independent variables. Then use"
+  },
+  {
+   "start": 1165.664,
+   "end": 1170.0539999999999,
+   "text": "the Gibbs sampling of each variables and every"
+  },
+  {
+   "start": 1170.0639999999999,
+   "end": 1172.5439999999999,
+   "text": "independent variables take turns."
+  },
+  {
+   "start": 1172.9840000000002,
+   "end": 1176.094,
+   "text": "As dependent variables for iteration"
+  },
+  {
+   "start": 1176.104,
+   "end": 1180.654,
+   "text": "and each dependent variables will be imputed"
+  },
+  {
+   "start": 1180.664,
+   "end": 1184.7340000000002,
+   "text": "missing values by random forest model assembled."
+  },
+  {
+   "start": 1184.7440000000001,
+   "end": 1188.4940000000001,
+   "text": "They choose the row and the column as the new small"
+  },
+  {
+   "start": 1188.5040000000001,
+   "end": 1189.356,
+   "text": "vectors."
+  },
+  {
+   "start": 1189.376,
+   "end": 1191.526,
+   "text": "For country models temporarily"
+  },
+  {
+   "start": 1191.536,
+   "end": 1194.1660000000002,
+   "text": "then after iteration of Gibbs sampling"
+  },
+  {
+   "start": 1194.1760000000002,
+   "end": 1198.406,
+   "text": "every random forest model came out an subset"
+  },
+  {
+   "start": 1198.416,
+   "end": 1202.726,
+   "text": "and then assembled those subset as output for the"
+  },
+  {
+   "start": 1202.736,
+   "end": 1206.006,
+   "text": "second layer in knife set approach"
+  },
+  {
+   "start": 1206.016,
+   "end": 1210.006,
+   "text": "and to compare the simple algorithms with IPCC's"
+  },
+  {
+   "start": 1210.016,
+   "end": 1213.2160000000001,
+   "text": "tier one method using broadleaf forest"
+  },
+  {
+   "start": 1213.4560000000001,
+   "end": 1216.576,
+   "text": "parameters, five indices were considered."
+  },
+  {
+   "start": 1217.0240000000001,
+   "end": 1221.184,
+   "text": "They are mean absolute percentage error and root"
+  },
+  {
+   "start": 1221.2640000000001,
+   "end": 1222.854,
+   "text": "mean square error"
+  },
+  {
+   "start": 1222.864,
+   "end": 1225.814,
+   "text": "and mean square error and mean error. Okay"
+  },
+  {
+   "start": 1225.824,
+   "end": 1231.2540000000001,
+   "text": "now we start the so the discussion for carbon stock"
+  },
+  {
+   "start": 1231.2640000000001,
+   "end": 1234.7740000000001,
+   "text": "and sinks are usually estimated by regression"
+  },
+  {
+   "start": 1234.784,
+   "end": 1239.824,
+   "text": "models, and regression models work well for above"
+  },
+  {
+   "start": 1239.904,
+   "end": 1242.864,
+   "text": "ground carbon stocks and sinks."
+  },
+  {
+   "start": 1243.248,
+   "end": 1246.838,
+   "text": "But are relevant the effect for below ground part"
+  },
+  {
+   "start": 1246.848,
+   "end": 1249.878,
+   "text": "and this mainly because the relationship between"
+  },
+  {
+   "start": 1249.888,
+   "end": 1252.358,
+   "text": "the independent variables and independent"
+  },
+  {
+   "start": 1252.368,
+   "end": 1256.368,
+   "text": "variables are commonly chaotic or divergent and"
+  },
+  {
+   "start": 1257.008,
+   "end": 1260.6779999999999,
+   "text": "appear everywhere in nature ecosystems. There"
+  },
+  {
+   "start": 1260.6879999999999,
+   "end": 1261.7320000000002,
+   "text": "is."
+  },
+  {
+   "start": 1261.7520000000002,
+   "end": 1266.7820000000002,
+   "text": "Large variability in belowground CCS estimated"
+  },
+  {
+   "start": 1266.7920000000001,
+   "end": 1271.2620000000002,
+   "text": "amount sites and high estimate uncertainties"
+  },
+  {
+   "start": 1271.2720000000002,
+   "end": 1275.7520000000002,
+   "text": "which can be attributed to environmental and"
+  },
+  {
+   "start": 1275.9920000000002,
+   "end": 1278.862,
+   "text": "anthropogenic factors such as temperature"
+  },
+  {
+   "start": 1278.872,
+   "end": 1282.7820000000002,
+   "text": "precipitation, soil chemical properties"
+  },
+  {
+   "start": 1282.7920000000001,
+   "end": 1285.832,
+   "text": "and biotic communities."
+  },
+  {
+   "start": 1286.208,
+   "end": 1290.518,
+   "text": "Nutrient availabilities, management intensity"
+  },
+  {
+   "start": 1290.528,
+   "end": 1291.728,
+   "text": "and ecosystem"
+  },
+  {
+   "start": 1292.448,
+   "end": 1293.196,
+   "text": "productivity—something like that."
+  },
+  {
+   "start": 1293.216,
+   "end": 1298.006,
+   "text": "And bamboo forests are one of types of terrestrial"
+  },
+  {
+   "start": 1298.016,
+   "end": 1300.086,
+   "text": "ecosystem. In different climate"
+  },
+  {
+   "start": 1300.096,
+   "end": 1301.126,
+   "text": "classifications"
+  },
+  {
+   "start": 1301.136,
+   "end": 1304.566,
+   "text": "will have totally different amount of the carbon"
+  },
+  {
+   "start": 1304.576,
+   "end": 1307.606,
+   "text": "stock and sinks because they have the resin system"
+  },
+  {
+   "start": 1307.616,
+   "end": 1310.9759999999999,
+   "text": "and can transport the carbon hydrate to other"
+  },
+  {
+   "start": 1311.056,
+   "end": 1314.896,
+   "text": "places and support the youngs of or new root"
+  },
+  {
+   "start": 1314.9759999999999,
+   "end": 1316.176,
+   "text": "development."
+  },
+  {
+   "start": 1316.3919999999998,
+   "end": 1319.192,
+   "text": "So they have a more higher characteristic"
+  },
+  {
+   "start": 1320.3919999999998,
+   "end": 1325.3419999999999,
+   "text": "in their study site in their habit and above ground"
+  },
+  {
+   "start": 1325.3519999999999,
+   "end": 1329.4219999999998,
+   "text": "carbon have a significant correlation with basal"
+  },
+  {
+   "start": 1329.4319999999998,
+   "end": 1333.6619999999998,
+   "text": "area and is quite suit for constructing linear"
+  },
+  {
+   "start": 1333.6719999999998,
+   "end": 1336.8619999999999,
+   "text": "regression to estimate the above ground biomass"
+  },
+  {
+   "start": 1336.8719999999998,
+   "end": 1339.1119999999999,
+   "text": "and Okuda, since"
+  },
+  {
+   "start": 1340.072,
+   "end": 1342.712,
+   "text": "in 2006 also made."
+  },
+  {
+   "start": 1343.544,
+   "end": 1346.174,
+   "text": "This kind of linear model to estimate the muscle"
+  },
+  {
+   "start": 1346.184,
+   "end": 1349.214,
+   "text": "bamboos above ground biomass in Japan as well"
+  },
+  {
+   "start": 1349.224,
+   "end": 1353.544,
+   "text": "and we also found the hydrotroughic respiration"
+  },
+  {
+   "start": 1353.624,
+   "end": 1357.144,
+   "text": "have a significant correlation with the NPP."
+  },
+  {
+   "start": 1357.816,
+   "end": 1360.366,
+   "text": "And a slight significant correlation with"
+  },
+  {
+   "start": 1360.376,
+   "end": 1363.326,
+   "text": "litterfall mass. Perhaps it means that if"
+  },
+  {
+   "start": 1363.336,
+   "end": 1366.856,
+   "text": "microbiome communities in soil decompose"
+  },
+  {
+   "start": 1367.2559999999999,
+   "end": 1370.446,
+   "text": "organic matter supply during litterfall"
+  },
+  {
+   "start": 1370.456,
+   "end": 1374.7759999999998,
+   "text": "increase, and then nutrient supply to."
+  },
+  {
+   "start": 1375.0320000000002,
+   "end": 1376.142,
+   "text": "Most of bamboo"
+  },
+  {
+   "start": 1376.152,
+   "end": 1380.152,
+   "text": "it will cause most of bamboo's NPP increase or"
+  },
+  {
+   "start": 1380.232,
+   "end": 1383.672,
+   "text": "total nutrient in soil drive the activity of"
+  },
+  {
+   "start": 1383.7520000000002,
+   "end": 1387.182,
+   "text": "microbiome to activate the N cycles"
+  },
+  {
+   "start": 1387.192,
+   "end": 1390.382,
+   "text": "ammonifications and nitrifications"
+  },
+  {
+   "start": 1390.392,
+   "end": 1394.3020000000001,
+   "text": "and cause the heterotrophic respiration has been"
+  },
+  {
+   "start": 1394.3120000000001,
+   "end": 1397.2720000000002,
+   "text": "driven as well. However, just only two"
+  },
+  {
+   "start": 1398.3120000000001,
+   "end": 1401.2720000000002,
+   "text": "peer-reviewed study recorded total."
+  },
+  {
+   "start": 1401.8480000000002,
+   "end": 1405.8480000000002,
+   "text": "Nutrient in soil and heterotrophic respiration"
+  },
+  {
+   "start": 1405.928,
+   "end": 1408.6380000000001,
+   "text": "at the same study site in China"
+  },
+  {
+   "start": 1408.6480000000001,
+   "end": 1412.5580000000002,
+   "text": "and the MPP just have a slight significant"
+  },
+  {
+   "start": 1412.5680000000002,
+   "end": 1416.238,
+   "text": "correlation with the total nutrient in soil"
+  },
+  {
+   "start": 1416.248,
+   "end": 1419.438,
+   "text": "and the observations number is only three"
+  },
+  {
+   "start": 1419.448,
+   "end": 1422.1580000000001,
+   "text": "two in this study and one in China. The"
+  },
+  {
+   "start": 1422.1680000000001,
+   "end": 1424.5680000000002,
+   "text": "relationship between the soil nutrient"
+  },
+  {
+   "start": 1424.6480000000001,
+   "end": 1428.808,
+   "text": "heterotrophic respiration MPP has potential."
+  },
+  {
+   "start": 1429.144,
+   "end": 1432.174,
+   "text": "For discovering the insight in the future"
+  },
+  {
+   "start": 1432.184,
+   "end": 1436.414,
+   "text": "and below ground net primary production has a"
+  },
+  {
+   "start": 1436.424,
+   "end": 1439.0539999999999,
+   "text": "significant correlation with deep net"
+  },
+  {
+   "start": 1439.0639999999999,
+   "end": 1443.144,
+   "text": "production. Perhaps it implies that the more"
+  },
+  {
+   "start": 1443.224,
+   "end": 1446.494,
+   "text": "leaves form, the more root and the rhizome grows"
+  },
+  {
+   "start": 1446.504,
+   "end": 1450.254,
+   "text": "because most of bamboo's leaves produce sugars"
+  },
+  {
+   "start": 1450.264,
+   "end": 1453.624,
+   "text": "and supply for developing roots and the rhizome."
+  },
+  {
+   "start": 1454.2640000000001,
+   "end": 1457.374,
+   "text": "The table revealed the performance of ninth set"
+  },
+  {
+   "start": 1457.384,
+   "end": 1460.904,
+   "text": "approach, and the approach is better than the"
+  },
+  {
+   "start": 1460.9840000000002,
+   "end": 1464.7440000000001,
+   "text": "IPCC's T1 methods using broadleaf forest"
+  },
+  {
+   "start": 1464.904,
+   "end": 1470.424,
+   "text": "parameters in all of the indices. And from the"
+  },
+  {
+   "start": 1471.704,
+   "end": 1472.904,
+   "text": ", sorry"
+  },
+  {
+   "start": 1475.064,
+   "end": 1476.7440000000001,
+   "text": ", so sorry, and."
+  },
+  {
+   "start": 1477.5600000000002,
+   "end": 1481.7900000000002,
+   "text": "Because the IPCC set was above ground carbon"
+  },
+  {
+   "start": 1481.8000000000002,
+   "end": 1482.8300000000002,
+   "text": "below ground carbon"
+  },
+  {
+   "start": 1482.8400000000001,
+   "end": 1486.2700000000002,
+   "text": "and the total carbon stocks have a lower"
+  },
+  {
+   "start": 1486.2800000000002,
+   "end": 1489.8700000000001,
+   "text": "performance than the knife set approach"
+  },
+  {
+   "start": 1489.88,
+   "end": 1493.0800000000002,
+   "text": "and in this kind of figure, the"
+  },
+  {
+   "start": 1493.96,
+   "end": 1495.8000000000002,
+   "text": "y-axis is the observations value."
+  },
+  {
+   "start": 1496.392,
+   "end": 1502.382,
+   "text": "And the x axis is the estimation value, and the MPP"
+  },
+  {
+   "start": 1502.392,
+   "end": 1506.622,
+   "text": "B MPP, and the T MPP. Even though the result seems"
+  },
+  {
+   "start": 1506.632,
+   "end": 1510.462,
+   "text": "not so good for the life cycle approach proved"
+  },
+  {
+   "start": 1510.472,
+   "end": 1513.902,
+   "text": "but is still better than the IPCC's type one"
+  },
+  {
+   "start": 1513.912,
+   "end": 1518.0720000000001,
+   "text": "methods. And I think perhaps we needed to collect"
+  },
+  {
+   "start": 1518.232,
+   "end": 1522.712,
+   "text": "more nutrient data from the other study sites."
+  },
+  {
+   "start": 1522.8799999999999,
+   "end": 1526.8,
+   "text": "Because it's very lack of this kind data nowadays"
+  },
+  {
+   "start": 1526.8799999999999,
+   "end": 1530.72,
+   "text": "in the most of the forest in the world. And after we"
+  },
+  {
+   "start": 1530.8,
+   "end": 1533.59,
+   "text": "did the ten cross validations"
+  },
+  {
+   "start": 1533.6,
+   "end": 1537.9199999999998,
+   "text": "we also operate the holdout data set to make the"
+  },
+  {
+   "start": 1538.08,
+   "end": 1539.67,
+   "text": "holdout testing"
+  },
+  {
+   "start": 1539.68,
+   "end": 1543.67,
+   "text": "and the performance is very similar with the ten"
+  },
+  {
+   "start": 1543.68,
+   "end": 1544.79,
+   "text": "cross validation"
+  },
+  {
+   "start": 1544.8,
+   "end": 1548.72,
+   "text": "which means there is no overfitting of the NAFSET"
+  },
+  {
+   "start": 1548.8,
+   "end": 1550.48,
+   "text": "approach and of the."
+  },
+  {
+   "start": 1550.64,
+   "end": 1553.84,
+   "text": "Performance is better than the IPCC's tier one"
+  },
+  {
+   "start": 1553.92,
+   "end": 1556.0,
+   "text": "method. Okay, so."
+  },
+  {
+   "start": 1556.224,
+   "end": 1559.414,
+   "text": "Through the collecting lots of bamboo data"
+  },
+  {
+   "start": 1559.424,
+   "end": 1561.814,
+   "text": "worldwide and the operating Pearson's"
+  },
+  {
+   "start": 1561.824,
+   "end": 1565.494,
+   "text": "correlations, we found the aboveground carbon"
+  },
+  {
+   "start": 1565.504,
+   "end": 1569.744,
+   "text": "stocks and the basal area have a high correlation"
+  },
+  {
+   "start": 1569.824,
+   "end": 1573.504,
+   "text": "to each other. And NPP and the leaf net production"
+  },
+  {
+   "start": 1573.584,
+   "end": 1577.734,
+   "text": "also have this kind of phenomenal. And the NPP and"
+  },
+  {
+   "start": 1577.744,
+   "end": 1579.904,
+   "text": "the heterotrophic respiration."
+  },
+  {
+   "start": 1580.032,
+   "end": 1584.102,
+   "text": "Or total nutrient in soil have a correlation with"
+  },
+  {
+   "start": 1584.112,
+   "end": 1587.702,
+   "text": "each other as well in the philostachy edulis"
+  },
+  {
+   "start": 1587.712,
+   "end": 1591.302,
+   "text": "stands, and the performance of the said approach"
+  },
+  {
+   "start": 1591.312,
+   "end": 1595.062,
+   "text": "is better than borderly forest perimeters using"
+  },
+  {
+   "start": 1595.072,
+   "end": 1598.342,
+   "text": "the IPCC guideline for estimating carbon stocks"
+  },
+  {
+   "start": 1598.352,
+   "end": 1601.302,
+   "text": "and sinks in philostachy edulis stands"
+  },
+  {
+   "start": 1601.312,
+   "end": 1604.672,
+   "text": "and we believe the KS approach."
+  },
+  {
+   "start": 1604.9920000000002,
+   "end": 1608.582,
+   "text": "Also, can be applied in other forests if the"
+  },
+  {
+   "start": 1608.592,
+   "end": 1610.2720000000002,
+   "text": "dataset is reliable"
+  },
+  {
+   "start": 1611.5520000000001,
+   "end": 1612.7520000000002,
+   "text": ". Thanks for your attention."
+  }
+ ]
+}

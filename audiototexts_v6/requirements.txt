@@ -1,0 +1,13 @@
+# 音檔轉錄小兔歐 V6 套件（PyTorch 由 setup 另外安裝：2.9.1 + CUDA 12.8，支援 RTX 50 系列）
+numpy>=1.24,<2.4
+faster-whisper==1.2.1        # Whisper / Breeze-ASR-25（CTranslate2 引擎＋Silero VAD）
+ctranslate2>=4.7,<5          # 4.7+ 修正 RTX 50 系列 int8 問題；本程式在 GPU 上一律用 float16
+transformers>=5.13,<6        # Qwen3-ASR 原生支援從 5.13 開始
+accelerate>=1.0
+safetensors
+huggingface_hub>=1.0
+gradio>=5.0,<7
+opencc>=1.1.9                # 簡轉繁（台灣正體）
+av>=11                       # 解碼音訊/影片（內建 ffmpeg，不需另外安裝）
+onnxruntime>=1.16            # Silero VAD
+imageio-ffmpeg               # 備用解碼器

@@ -1,0 +1,2 @@
+# 鎖住支援 RTX 50 系列（Blackwell, sm_120）的 PyTorch；CUDA 12.8 版也支援 RTX 20/30/40 系列
+torch==2.9.1+cu128
